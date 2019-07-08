@@ -1,0 +1,11 @@
+---
+layout: post
+title:  "NY post 1"
+date:   2019-07-08 13:16:59
+author: Ben Centra
+categories: Nayoung
+tags: blog gitblog
+---
+
+나의 첫 post
+힘들다 정말!!!!!!!!!!!!
