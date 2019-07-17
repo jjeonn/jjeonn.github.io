@@ -1,10 +1,8 @@
 ---
-layout: post
-disqus_disabled: true
-title: "[github blog] 환경 설정"
-date: 2019-07-11 15:39:00
-author: gloria
-categories: etc
+layout: page
+title: "[이것은나의퐄트폴리요03] http://127.0.0.1:4000"
+author: Nayoung
+categories: portfolio
 tags: jekyll github
 cover:  "/assets/instacode.png"
 ---

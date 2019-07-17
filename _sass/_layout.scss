@@ -215,11 +215,29 @@ pre code.hljs {
 			font-size: 0.9em;
 		}
 		.post-categories {
+			$link-color:$nayoung-color;
 			@include span-columns(6);
 			margin-right: 0;
 			text-align: right;
 			font-size: 0.9em;
+			a {
+			  color: $link-color;
+			  }
 		}
+
+//2019-07-16 나영생성
+		.post-categories02 {
+			float: right;
+			a{
+				    display:block;
+				    width:128px;
+				    height:35px;
+				    background: url(/assets/btn_more.png) no-repeat 100%;
+			}
+		}
+
+
+
 	}
 	.pagination {
 		padding-top: 2em;
@@ -230,6 +248,7 @@ pre code.hljs {
 		}
     a.newer-posts {
       text-decoration: none;
+	color: $yellow-font;
     }
 	}
 	.site-header-container {
@@ -343,6 +362,12 @@ pre code.hljs {
 			margin: auto;
 			padding-bottom: 0.5em;
  		}
+		.posts-list{
+			a{
+			color: $yellow;
+			}
+		}
+
 	}
 }
 
@@ -350,16 +375,17 @@ pre code.hljs {
 *	Footer
 */
 .site-footer {
-	$link-color: $white;
+	border-top: 1px solid $black;
+	$link-color: $black;
 	padding: 1em 1em 2em 1em;
-	background-color: $highlight-color;
-	color: $white;
+	background-color: $white;
+	color: $yellow-font;
 	a {
 	  color: $link-color;
 	  &:active,
 	  &:focus,
 	  &:hover {
-	    color: darken($link-color, 10%);
+	    color: darken($yellow-font, 50%);
 	  }
 	  &:active,
 	  &:focus {
@@ -370,7 +396,7 @@ pre code.hljs {
 		@include outer-container;
 	}
 	.footer-heading {
-
+		color: $black;
 	}
 	/*
 	*	Site Navigation (left)

@@ -1,8 +1,8 @@
 ---
-layout: post
-title:  "NY post 1"
+layout: page
+title:  "NY post test1"
 date:   2019-07-08 13:16:59
-author: Ben Centra
+author: Nayoung
 categories: Nayoung
 tags: blog gitblog
 ---
