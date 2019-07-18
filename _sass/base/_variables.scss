@@ -34,13 +34,13 @@ $green: #27ae60;	  	// Nephritis
 $blue: #2980b9;				// Belize Hole
 $purple: #8e44ad;			// Wisteria
 
-//나영추가 사이트기본컬러 레몬컬러계열
+//nayoung site base-color
 $light-lemon: #a6aa88;	//color background
 $lemon: #fffbe5;			//footer background
 $lemon-font:#4c4933;		//font-color
 $orange: #ff6000;			// Pumpkin
-$yellow: #f89200;			// 통닭포인트컬러
-$yellow-font: #edc81d;			// 통닭텍스트컬러
+$yellow: #f89200;			// yellow point-color
+$yellow-font: #edc81d;			// yellow point-text-color
 
 $red:	#c0392b;				// Pomegranate
 $gray: #7f8c8d;				// Asbestos
@@ -52,7 +52,7 @@ $base-background-color: #fff;
 $base-font-color: $dark-gray;
 $action-color: $lemon-font;
 
-//나영추가 사이트기본컬러 레몬컬러계열
+//nayoung site base-color
 $nayoung-color: $yellow-font;
 
 $highlight-color: tint($action-color, 50%);
