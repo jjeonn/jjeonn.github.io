@@ -194,6 +194,15 @@ pre code.hljs {
 *	Body
 */
 .page-content {
+	a {
+		  &:active,
+		  &:focus,
+		  &:hover {
+			text-decoration:none;
+			padding-bottom:3px;
+			border-bottom:1px solid $nayoung-color;
+		}
+	}
 	.wrapper {
 		@include outer-container;
 		padding: 1em;
@@ -223,6 +232,7 @@ pre code.hljs {
 			a {
 			  color: $link-color;
 			  }
+			
 		}
 
 //2019-07-16 nayoyng
@@ -233,6 +243,12 @@ pre code.hljs {
 				    width:128px;
 				    height:35px;
 				    background: url(/assets/btn_more.png) no-repeat 100%;
+			  &:active,
+			  &:focus,
+			  &:hover { 
+				padding-bottom:none;
+				border-bottom:none;
+			  }
 			}
 		}
 
@@ -375,6 +391,23 @@ pre code.hljs {
 
 	}
 }
+
+/*
+*	Portfolio
+*/
+	.page{
+			a{
+			.title-sub {
+				font-weight:normal;
+			}
+		}
+		.post-list {
+			p{
+			color:#999999;
+			}
+		}
+	}
+
 
 /*
 *	Footer
