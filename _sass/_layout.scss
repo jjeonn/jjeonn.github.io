@@ -10,9 +10,41 @@ $tablet: $b2;
 $b1: 960px;
 $desktop: $b1;
 
+/*custom nayoung*/
+
+.post-content{
+
+}
+
+
 /*
 *	Globals
 */
+.hljs-code, .hljs-title, .hljs-section, .hljs-selector-class{ color:$black;}
+.hljs, .hljs-tag, .hljs-subst { color:$black;}
+.hljs-comment, .hljs-deletion, .hljs-meta { color:$black;}
+.ft1 {font-size: 1em;}
+.dp-bl {display:block;}
+blockquote {
+    display: block;
+    margin-block-start: 0.5em;
+    margin-block-end: 0.5em;
+    margin-inline-start: 20px;
+    margin-inline-end: 20px;
+}
+code, kbd, pre, samp { font-family:"Source Sans Pro"; font-size: 1em;}
+
+
+
+
+blockquote{
+	border-left: .25em solid #f4cc1d;
+	padding: 0 0.5em;
+	color: #6a737d;
+	p{
+		color:#6a737d;
+	}
+}
 html, body {
 	margin: 0;
 	padding: 0;
@@ -28,14 +60,19 @@ ul.default {
 }
 
 code {
-	background-color: #eee;
+	background-color: $white;
+	border:1px solid $yellow;
+	color:$yellow;
 	display: inline-block;
 	border-radius: 3px;
-	padding: 0 3px;
+	padding: 0px 7px;
+	line-height: 1.5;
 }
 
 pre code.hljs {
 	font-size: modular-scale(-1);
+	background: #fff;
+	border: 1px solid #d8d3c0;
 }
 
 .page-divider {
@@ -289,6 +326,7 @@ pre code.hljs {
 	/*
 	*	Posts
 	*/
+	
 	.post {
 		ul {
 			margin-bottom: 1em;
@@ -303,6 +341,9 @@ pre code.hljs {
 		}
 		.post-content {
 			padding: 1em 0;
+				a{
+				color:#f89200;
+				}
 		}
 		.tags {
 			font-size: 0.9em;
@@ -381,6 +422,9 @@ pre code.hljs {
 		.posts-list{
 			a{
 			color: $yellow;
+				.title-sub {
+					font-weight:normal;
+				}
 			}
 		}
 		.post-content02 {
@@ -395,15 +439,14 @@ pre code.hljs {
 /*
 *	Portfolio
 */
-	.page{
-			a{
+
+	.post-list {
+		p{
+		color:#999999;
+		}
+		a{
 			.title-sub {
 				font-weight:normal;
-			}
-		}
-		.post-list {
-			p{
-			color:#999999;
 			}
 		}
 	}

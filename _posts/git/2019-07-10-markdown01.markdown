@@ -1,0 +1,81 @@
+---
+layout: post
+title:  "마크다운(markdown) 정리"
+date:   2019-07-10 14:43:59
+author: Nsyoung
+categories: [GIT]
+tags: markdown git
+---
+
+### GithubPage 블로그 사용필수언어
+<span>깃 블로그의 시작은 스킨셋팅 후 알아야 하는 기본이 마크다운(markdown)이라고 생각한다.</span>
+<span class="dp-bl"> 천천히 기초부터 쌓아보자:D </span>
+
+-------------------------
+
+**마크다운(markdown)**은 일반 텍스트 문서의 양식을 편집하는 문법이다.
+README 파일이나 온라인 문서, 혹은 일반 텍스트 편집기로 문서 양식을 편집할 때 쓰인다. 마크다운을 이용해 작성된 문서는 쉽게 HTML 등 다른 문서형태로 변환이 가능하다.
+
+**1.헤더(Header)** <span class="ft1 dp-bl"> 글머리는 1~6까지만 지원한다</span>
+
+```
+ Header1
+ ======
+ Header(small)
+ -------------
+```
+
+Header1
+======
+
+Header(small)
+-------------
+
+```
+ # Header1
+ ## Header2
+ ### Header3
+ #### Header4
+ ##### Header5
+ ###### Header6
+```
+# Header1
+## Header2
+### Header3
+#### Header4
+##### Header5
+###### Header6
+
+
+**2.BlockQuote**
+<span class="ft1 dp-bl">블럭인용문자 ```>``` 를 이용한다.</span>
+```
+>  안녕?
+> > 안녕?
+> > > 안녕?
+```
+
+>  안녕?
+> >  안녕?
+> > > 안녕?
+
+이 안에서는 다른 마크다운 요소를 포함할 수 있다.
+```
+> ### Header3
+> * List
+>	```
+>	code
+>	```
+
+```
+
+> ### Header3
+> * List
+>	```
+>	code
+>	```
+
+
+ ... which is shown in the screenshot below:
+![My helpful screenshot]({{ "/assets/instacode.png" | absolute_url }})
+

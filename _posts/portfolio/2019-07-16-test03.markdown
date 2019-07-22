@@ -1,6 +1,7 @@
 ---
 layout: page
-title: "[이것은나의퐄트폴리요03] http://127.0.0.1:4000"
+title: "[이것은나의퐄트폴리요03]"
+title-sub: "Demo"
 author: Nayoung
 categories: portfolio
 tags: jekyll github

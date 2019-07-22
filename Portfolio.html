@@ -13,7 +13,7 @@ permalink: /Portfolio/
 		  <a class="post-link" href="{{ post.url | prepend: site.baseurl }}">{{ post.title }} <span class="title-sub">{{ post.title-sub }}</span></a>
 		</h2>
 		<section class="post-excerpt" itemprop="description">
-		  <p>{{ post.content | strip_html | truncatewords: 10 }}</p>
+		  <p>{{ post.content | strip_html | truncatewords: 20 }}</p>
 		</section>
 		<section class="post-meta">
 		  <div class="post-date">{{ post.date | date: "%B %-d, %Y" }}</div>
@@ -43,7 +43,7 @@ permalink: /Portfolio/
   {% for post in site.categories.portfolio %}
     <li>
       <strong>
-        <a href="{{ post.url | prepend: site.baseurl }}">{{ post.title }}</a>
+        <a href="{{ post.url | prepend: site.baseurl }}">{{ post.title }}<span class="title-sub">{{ post.title-sub }}</span></a>
       </strong>
       <span class="post-date">- {{ post.date | date_to_long_string }}</span>
     </li>
