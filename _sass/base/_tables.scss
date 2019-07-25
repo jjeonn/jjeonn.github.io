@@ -23,3 +23,17 @@ td,
 th {
   vertical-align: middle;
 }
+
+/*nayoung custom*/
+
+.post{
+	td{border-left:$base-border;padding:0;}
+	td:last-child{border-right:$base-border;}
+	th:last-child{border-right:1px solid darken($base-border-color, 15%);
+	}
+	th{background-color:#fff9f0;
+		border-top: 1px solid darken($base-border-color, 15%);
+		border-left: 1px solid darken($base-border-color, 15%);
+		padding:0;
+	}
+}

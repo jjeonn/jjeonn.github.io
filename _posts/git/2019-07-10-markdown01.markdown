@@ -1,10 +1,10 @@
 ---
 layout: post
-title:  "마크다운(markdown) 정리"
+title:  "마크다운(markdown) 정리 (1)"
 date:   2019-07-10 14:43:59
 author: Nayoung
 categories: [GIT]
-tags: markdown git
+tags: markdown git gitblog
 ---
 
 
@@ -13,12 +13,15 @@ tags: markdown git
 <span>깃 블로그의 시작은 스킨셋팅 후 알아야 하는 기본이 마크다운(markdown)이라고 생각한다.</span>
 <span class="dp-bl"> 천천히 기초부터 쌓아보자:D </span>
 
--------------------------
+----------------------------------------------------------------
 
 **마크다운(markdown)**은 일반 텍스트 문서의 양식을 편집하는 문법이다.
 README 파일이나 온라인 문서, 혹은 일반 텍스트 편집기로 문서 양식을 편집할 때 쓰인다. 마크다운을 이용해 작성된 문서는 쉽게 HTML 등 다른 문서형태로 변환이 가능하다.
 
-**1.헤더(Header)** <span class="ft1 dp-bl"> 글머리는 1~6까지만 지원한다</span>
+------------------------------------------------------------------
+
+# 1.헤더(Header)
+<span class="ft1 dp-bl"> 글머리는 1~6까지만 지원한다</span>
 
 ```
  Header1
@@ -48,8 +51,9 @@ Header(small)
 ##### Header5
 ###### Header6
 
+----------------------------------------------------------------------
 
-**2.인용(BlockQuote)**
+# 2.인용(BlockQuote)
 <span class="ft1 dp-bl">블럭인용문자 ```>``` 를 이용한다.</span>
 ```
 >  안녕?
@@ -69,7 +73,6 @@ Header(small)
 >	```
 >	code
 >	```
-
 ```
 
 > #### Header4
@@ -79,52 +82,9 @@ Header(small)
 >	code
 >	```
 
-**3. 링크(Link)**
-<span class="ft1 dp-bl">주소삽입 방법은 여러가지가 있다.</span>
+----------------------------------------------------------------
 
-* 인라인 링크
-```
-    [링크를담을텍스트](담은텍스트에 가고싶은링크)
-    [Google URL](https://www.google.com)
-```
-[Google URL](https://www.google.com)
-
-* 참조 링크
-<span class="ft1 dp-bl">순서에 상관 없이 ```[ ]```안의 텍스트나 숫자 안에 URL을 담아 사용한다.</span>
-```
-    [Google URL][1]구글링크 입니다.
-    [Naver URL][2]네이버 링크입니다.
-    이부분은 [구글]을 참조할 수 있습니다.
-
-	[구글]:https://www.google.com/
-    [1]:https://www.google.com/
-    [2]:https://www.naver.com/
-```
-[Google URL][1]구글 링크입니다.
-[Naver URL][2]네이버 링크입니다.
-이부분은 [구글]를 참조할 수 있습니다
-
-[구글]:https://www.google.com/
-[1]:https://www.google.com/
-[2]:https://www.naver.com/
-
-* 새창 링크
-<span class="ft1 dp-bl">링크를 새창으로 띄우려면 ``` {: target="_blank"}``` 를 링크뒤에 넣어준다.</span>
-```
-    [링크를담을텍스트](담은텍스트에 가고싶은링크)[새창띄울게요]
-    [Google URL](https://www.google.com){: target="_blank"}
-```
-[Google URL](https://www.google.com){: target="_blank"}
-
-* 이미지 링크
-```
-[![대체 텍스트](이미지 경로)](이미지에 넣고싶은 링크)
-[![내블로그](/assets/icons/ms-icon-70x70.png)](https://jjeonn.github.io)
-```
-[![내블로그](/assets/icons/ms-icon-70x70.png)](https://jjeonn.github.io)
-
-
-**4. 글자 스타일(text decoration)**
+# 3. 글자 스타일(text decoration)
 
 * 굵게
 ```
@@ -148,5 +108,61 @@ _기울인글씨_
 ```
 ~~직선~~
 
+----------------------------------------------------------------
 
-**4. 목록(List)**
+# 4. 목록(List)
+
+* 숫자 목록
+
+```
+1.하나
+2.둘
+3.셋
+```
+1.하나
+2.둘
+3.셋
+
+* 글머리 목록
+
+```
+    * One
+      * Two
+        * Three
+
+    + One
+      + Two
+        + Three
+
+    - One
+      - Two
+        - Three
+```
+
+* One
+  * Two
+  	* Three
+
++ One
+	+ Two
+	   + Three
+
+- One
+  - Two
+    - Three
+
+----------------------------------------------------------------
+# 5. 코드(Code/pre)
+```
+    This is a normal paragraph:
+        This is a code block.
+    end code block.
+
+    ``` This is a normal paragraph: This is a code block. end code block. ```
+```
+
+This is a normal paragraph:
+    This is a code block.
+end code block.
+
+``` This is a normal paragraph: This is a code block. end code block. ```

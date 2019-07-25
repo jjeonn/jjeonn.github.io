@@ -279,13 +279,21 @@ pre code.hljs {
 			a{
 				    display:block;
 				    width:128px;
-				    height:35px;
-				    background: url(/assets/btn_more.png) no-repeat 100%;
+				    height:30px;
+				  /*  background: url(/assets/btn_more.png) no-repeat 100%;*/
+				  background-color:#f4cc1d;
+				  border: 1px solid #f4cc1d;
+				  border-radius:10px;
+				  text-align:center;
+				  line-height:30px;
+				  box-sizing: border-box;
+				  font-family: Nanum Gothic;
+				font-weight: bold;
 			  &:active,
 			  &:focus,
 			  &:hover { 
 				padding-bottom:none;
-				border-bottom:none;
+				  background-color:#fff;
 			  }
 			}
 		}
