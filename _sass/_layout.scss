@@ -11,7 +11,9 @@ $b1: 960px;
 $desktop: $b1;
 
 /*custom nayoung*/
-
+::selection {
+    background: #f4cc1d;
+    color: #fff;}
 .post-content{
 
 }
@@ -433,6 +435,7 @@ pre code.hljs {
 			color: $yellow;
 				.title-sub {
 					font-weight:normal;
+					font-size:modular-scale(-1);
 				}
 			}
 		}
@@ -456,6 +459,7 @@ pre code.hljs {
 		a{
 			.title-sub {
 				font-weight:normal;
+				font-size:modular-scale(-1);
 			}
 		}
 	}
