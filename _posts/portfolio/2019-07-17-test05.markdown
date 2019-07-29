@@ -1,16 +1,50 @@
 ---
-layout: page
+layout: pages
 title: "[THE REALTY]"
 title-sub: "http://realty.intowinsoft.com"
 author: Nayoung
 categories: portfolio
-tags: jekyll github
+tags: portfolio
 ---
 
-#### 제목일거야.
 
+
+<section class="pofo_con">
+	<article>
+		<a href="http://realty.intowinsoft.com" target="_blank">
+			<img src="/assets/01.jpg">
+		</a>
+	</article>
+	<article>
+
+		<h4>부동산중개</h4>
+		<ul class="pofo_ul">
+			<li>HTML</li>
+			<li>CSS</li>
+			<li>JQURY</li>
+		</ul>
+		<p class="pofo_content">첫회사 첫직장의 첫 프로젝트!
+		비록 혼자하는 단순한 코딩업무에 제이쿼리 조금 들어간 사이트 였지만
+		심플한 내용에 첫 프로젝트</p>
+		<div>
+			<p>참여율</p> <span>100%</span>
+		</div>
+	</article>
+</section>
+
+
+<!-- <a href="http://realty.intowinsoft.com">
+	<img src="https://jjeonn.github.io/assets/porefolio01.png" style="width:50%;">
+</a>
 [![더리얼티](/assets/porefolio01.png)](http://realty.intowinsoft.com){: target="_blank"}
+[![더리얼티](/assets/01.jpg)](http://realty.intowinsoft.com){: target="_blank"} -->
 
-#### p2p
-## The realty
-2019.06
+
+<style>
+.wrapper_pofo {max-width: 70em !important;}
+.pofo_con {overflow:hidden;}
+.pofo_con article {width:50%; float:left; }
+.pofo_con article:nth-of-type(2) {padding-left:30px;}
+.pofo_ul {overflow:hidden;list-style-type: none; padding-left: 0;}
+.pofo_ul li {float:left;border:1px solid orange;padding:2px 5px; margin:0 5px;text-decoration: none; font-size:modular-scale(-1);}
+</style>

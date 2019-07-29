@@ -272,7 +272,7 @@ pre code.hljs {
 			a {
 			  color: $link-color;
 			  }
-			
+
 		}
 
 //2019-07-16 nayoyng
@@ -291,9 +291,10 @@ pre code.hljs {
 				  box-sizing: border-box;
 				  font-family: Nanum Gothic;
 				font-weight: bold;
+				transition: all 0.5s;
 			  &:active,
 			  &:focus,
-			  &:hover { 
+			  &:hover {
 				padding-bottom:none;
 				  background-color:#fff;
 			  }
@@ -337,7 +338,7 @@ pre code.hljs {
 	/*
 	*	Posts
 	*/
-	
+
 	.post {
 		ul {
 			margin-bottom: 1em;
@@ -449,7 +450,8 @@ pre code.hljs {
 }
 
 /*
-*	Portfolio
+* nayoung custom
+	Portfolio
 */
 
 	.post-list {

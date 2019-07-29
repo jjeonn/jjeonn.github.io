@@ -13,3 +13,9 @@
 @import "lists";
 @import "tables";
 @import "typography";
+
+
+// nayoung custom -portfolio
+
+.pofo_ul li {float:left;border:1px solid orange;padding:2px 5px; margin:0 5px;text-decoration: none; font-size:modular-scale(-1);border-radius: 5px;}
+.pofo_content {font-size:modular-scale(-1);}
