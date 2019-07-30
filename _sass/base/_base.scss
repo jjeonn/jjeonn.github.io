@@ -16,6 +16,16 @@
 
 
 // nayoung custom -portfolio
+.wrapper_pofo {max-width: 70em !important;}
+.pofo_con {overflow:hidden;}
+.pofo_con article {width:50%; float:left; }
+.pofo_con article:nth-of-type(2) {padding-left:30px;}
+.pofo_ul {overflow:hidden; list-style-type: none; padding-left: 0;}
+// .pofo_ul li {float:left; border:1px solid orange;padding:2px 8px; margin:0 5px;text-decoration: none; font-size:modular-scale(-1); border-radius: 5px;}
+.pofo_ul li {width:50px; height:50px; line-height:50px; float:left; border:1px solid orange; margin:0 5px; text-align: center;text-decoration: none; font-size:modular-scale(-1); border-radius: 50%;}
+.pofo_ul li:first-child{margin-left: 0;}
+p.pofo_content {font-size:modular-scale(-1); line-height: 1;}
+.pofo_left > h4 {}
+.pofo_left h4 > span{display:block; font-size:modular-scale(-2); color:#b1adad; }
 
-.pofo_ul li {float:left;border:1px solid orange;padding:2px 5px; margin:0 5px;text-decoration: none; font-size:modular-scale(-1);border-radius: 5px;}
-.pofo_content {font-size:modular-scale(-1);}
+.about_page .pofo_ul li{width: auto;height: auto; line-height: normal;padding: 2px 8px; border-radius: 3px;}

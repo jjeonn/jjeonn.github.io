@@ -13,7 +13,7 @@ title: NY blog
 subtitle: "HI"
 email: jjeonn2014@gmail.com
 name: jjeonn
-description: 
+description:
   HI welcom my blog.
 # Base URL of site (i.e. /blog). It should always start with a slash,
 # and never end with a slash. Set it to a blank value if hosting at the
@@ -51,8 +51,8 @@ descriptions:
   - cat: jekyll
     desc: "Posts describing Jekyll setup techniques."
 
-  - cat: dummy
-    desc: "Just some placeholder posts, lorem ipsum and the rest."
+  - cat: git
+    desc: ""
 
 
 # Social icons and sharing options

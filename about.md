@@ -6,13 +6,6 @@ author: Nayoung
 cover:  "/assets/bg-fro.png"
 ---
 
-<img src="{{ site.baseurl }}/assets/bg-fro.png" title="Profile Picture" class="profile">
-
-나눈누난나전나영이닷:D
-
-
-[GitHub repository](https://github.com/jjeonn/jjeonn.github.io).
-
 
 # Jeon Nayoung
 #### 전나영
@@ -20,3 +13,12 @@ cover:  "/assets/bg-fro.png"
 경험,기록,기억 :D
 
 
+[GitHub repository](https://github.com/jjeonn/jjeonn.github.io).
+
+<ul class="pofo_ul">
+<li>html</li>
+<li>CSS</li>
+<li>JQUERY</li>
+<li>JAVASCRIPT</li>
+<li>GIT</li>
+</ul>

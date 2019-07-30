@@ -12,21 +12,23 @@ tags: portfolio
 <section class="pofo_con">
 	<article>
 		<a href="http://realty.intowinsoft.com" target="_blank">
-			<img src="/assets/01.jpg">
+			<img src="/assets/porefolio_01.jpg">
 		</a>
 	</article>
-	<article>
+	<article class="pofo_left">
+		<h4>부동산중개
+			<span>2016.06.23 ~ 2016.06.30</span>
+		</h4>
 
-		<h4>부동산중개</h4>
+		<p class="pofo_content">첫회사 첫직장의 첫 프로젝트!</p>
+		<p class="pofo_content">혼자하는 단순한 코딩업무에 간단한 제이쿼리민 들어간 사이트 였지만</p>
+		<p class="pofo_content">심플한 내용에 첫 프로젝트</p>
 		<ul class="pofo_ul">
 			<li>HTML</li>
 			<li>CSS</li>
 			<li>JQURY</li>
-		</ul>
-		<p class="pofo_content">첫회사 첫직장의 첫 프로젝트!
-		비록 혼자하는 단순한 코딩업무에 제이쿼리 조금 들어간 사이트 였지만
-		심플한 내용에 첫 프로젝트</p>
-		<div>
+		</ul>		
+		<div class="">
 			<p>참여율</p> <span>100%</span>
 		</div>
 	</article>
@@ -38,13 +40,3 @@ tags: portfolio
 </a>
 [![더리얼티](/assets/porefolio01.png)](http://realty.intowinsoft.com){: target="_blank"}
 [![더리얼티](/assets/01.jpg)](http://realty.intowinsoft.com){: target="_blank"} -->
-
-
-<style>
-.wrapper_pofo {max-width: 70em !important;}
-.pofo_con {overflow:hidden;}
-.pofo_con article {width:50%; float:left; }
-.pofo_con article:nth-of-type(2) {padding-left:30px;}
-.pofo_ul {overflow:hidden;list-style-type: none; padding-left: 0;}
-.pofo_ul li {float:left;border:1px solid orange;padding:2px 5px; margin:0 5px;text-decoration: none; font-size:modular-scale(-1);}
-</style>
