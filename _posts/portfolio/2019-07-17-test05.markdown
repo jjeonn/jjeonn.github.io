@@ -31,7 +31,7 @@ tags: portfolio
 			<li>JQURY</li>
 		</ul>		
 		<div>
-			<p>참여율</p> <span>100%</span>
+			<p>기여도</p> <span>100%</span>
 		</div>
 	</article>
 </section>
