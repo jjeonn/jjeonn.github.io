@@ -1,7 +1,7 @@
 ---
 layout: pages
 title: "[THE REALTY]"
-title-sub: "http://realty.intowinsoft.com"
+title-sub: "realty.intowinsoft.com"
 author: Nayoung
 categories: portfolio
 tags: portfolio

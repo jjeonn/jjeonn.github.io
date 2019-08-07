@@ -1,0 +1,43 @@
+---
+layout: pages
+title: "[코너스톤]"
+title-sub: ""
+author: Nayoung
+categories: portfolio
+tags: portfolio
+---
+
+
+
+<section class="pofo_con">
+	<article>
+		<a href="http://realty.intowinsoft.com" target="_blank">
+			<img src="/assets/portfolio_08.jpg">
+		</a>
+	</article>
+	<article class="pofo_left">
+		<h4>
+			<strong>P2P</strong>
+			<span>2017.07.17 ~ 2017.08.18</span>
+		</h4>
+
+		<div>
+			<p class="pofo_content">이전보다 좀더 많은 기술을 필요로했던 프로젝트인만큼 우여곡절이 많았던 코너스톤</p>
+			<p class="pofo_content">중요한 정보를 한눈에 파악할 수 있는 은행 레이아웃을 원해서 **은행을 모티브로 디자인및 기술이 들어갔다.</p>
+			<p class="pofo_content">기존 레이아웃과 전혀 다른 작업을 진행해서 모티브인 은행을 일주일간 분석해서 완료했지만 없어져버려 아쉬운사이트..</p>
+		</div>
+		<ul class="pofo_ul">
+			<li>HTML</li>
+			<li>CSS</li>
+			<li>JQURY</li>
+			<li>SCRIPT</li>
+		</ul>		
+		<div>
+			<p>기여도</p> <span>100%</span>
+		</div>
+	</article>
+</section>
+
+<section class="pofo_con">
+<img src="/assets/portfolio_08_01.png">
+</section>
