@@ -40,6 +40,10 @@ tags: portfolio
 
 <section class="pofo_con">
 	<div class="pofo_img">
-		<img src="/assets/portfolio_08_01.png">
+	<img src="/assets/portfolio_08_01.png">
+	<img src="/assets/portfolio_08_02.jpg">
+	<img src="/assets/portfolio_08_03.jpg">
+	<img src="/assets/portfolio_08_04.jpg">
+	<img src="/assets/portfolio_08_05.jpg">
 	</div>
 </section>
