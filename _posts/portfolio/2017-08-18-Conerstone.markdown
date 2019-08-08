@@ -39,5 +39,7 @@ tags: portfolio
 </section>
 
 <section class="pofo_con">
-<img src="/assets/portfolio_08_01.png">
+	<div class="pofo_img">
+		<img src="/assets/portfolio_08_01.png">
+	</div>
 </section>

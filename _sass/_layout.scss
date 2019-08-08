@@ -460,8 +460,9 @@ pre code.hljs {
 		}
 		a{
 			.title-sub {
-				font-weight:normal;
+				font-weight:100;
 				font-size:modular-scale(-1);
+        color:#999999;
 			}
 		}
 	}

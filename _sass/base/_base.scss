@@ -38,6 +38,8 @@ p.pofo_content {font-size:modular-scale(-1); line-height: 1.5; margin:0;}
 
 .about_page .pofo_ul li{width: auto;height: auto; line-height: normal;padding: 2px 8px; border-radius: 3px;}
 
+.pofo_img img{padding-top:100px;}
+
 @media all and (max-width: 639px) {
 .pofo_con article , .pofo_con article:nth-of-type(2)  {width:100%; float:none;}
 
