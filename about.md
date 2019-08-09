@@ -1,11 +1,11 @@
 ---
 layout: about
 title: About
-permalink: /about/
+permalink: /about
 author: Nayoung
-cover:  "/assets/bg-fro.png"
----
 
+---
+<!-- cover:  "/assets/bg-fro.png" -->
 
 # Jeon Nayoung
 #### 전나영
