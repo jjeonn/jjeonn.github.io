@@ -2,10 +2,13 @@
 layout: about
 title: About
 permalink: /about
-author: Nayoung
+
 
 ---
-<!-- cover:  "/assets/bg-fro.png" -->
+<!-- cover:  "/assets/bg-fro.png"
+
+author: Nayoung
+
 
 # Jeon Nayoung
 #### 전나영
@@ -22,3 +25,6 @@ author: Nayoung
 <li>JAVASCRIPT</li>
 <li>GIT</li>
 </ul>
+-->
+
+![AboutMe](/assets/AboutMe.jpg)
