@@ -11,7 +11,7 @@ tags: portfolio
 
 <section class="pofo_con">
 	<article>
-		<a href="noblefund.co.kr" target="_blank">
+		<a href="http://noblefund.co.kr" target="_blank">
 			<img src="/assets/portfolio_03.jpg">
 		</a>
 	</article>

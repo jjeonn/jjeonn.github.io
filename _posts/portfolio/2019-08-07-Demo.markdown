@@ -11,7 +11,7 @@ tags: portfolio
 
 <section class="pofo_con">
 	<article>
-		<a href="demo.goodbit.co.kr" target="_blank">
+		<a href="http://demo.goodbit.co.kr" target="_blank">
 			<img src="/assets/portfolio_09.jpg">
 		</a>
 	</article>

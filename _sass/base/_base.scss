@@ -36,13 +36,27 @@ p.pofo_content {font-size:modular-scale(-1); line-height: 1.5; margin:0;}
 .pofo_left > div:last-child p{float:left; margin:0;font-size: 0.9em; padding-top: 4px;}
 .pofo_left > div:last-child span{float:right;}
 
-.about_page .pofo_ul li{width: auto;height: auto; line-height: normal;padding: 2px 8px; border-radius: 3px;}
 
+
+// nayoung custom -about
+.about_page .pofo_ul li{width: auto;height: auto; line-height: normal;padding: 2px 8px; border-radius: 3px;}
+.about_page > p {display:none;}
 .pofo_img img{padding-top:100px;}
+.aboutme { width:100%; min-height: 668px; background:url(/assets/AboutMe02.jpg) no-repeat; background-size: 100%;}
+.aboutme > div {width:290px; padding-top:15px;}
+.aboutme li{font-family: 'Yrsa', serif; font-weight:400; list-style: none;}
+.aboutme li:nth-of-type(2) {font-weight:700; letter-spacing: 1px; padding: 70px 0 25px;}
+.aboutme li h1{font-family: 'Libre Baskerville', serif; margin:0; text-align:center; line-height:100px; letter-spacing: 0.1em; font-size: 4.5em; font-weight: 100; color: #000;}
+.aboutme li p {margin:0; font-weight:500;}
+.aboutme li p span {padding-right:10px; font-weight:700; letter-spacing: 1px;}
 
 @media all and (max-width: 639px) {
 .pofo_con article , .pofo_con article:nth-of-type(2)  {width:100%; float:none; padding:0;}
 .page-content .page .post-header {padding:20px 40px !important;}
 .pofo_left > div:nth-of-type(1) {min-height: 6em;}
+
+.about_page > p {display:block;}
+.aboutme {display:none;}
+
 
 }

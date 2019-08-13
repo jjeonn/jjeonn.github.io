@@ -11,7 +11,7 @@ tags: portfolio
 
 <section class="pofo_con">
 	<article>
-		<a href="bizfund.kr" target="_blank">
+		<a href="https://bizfund.kr" target="_blank">
 			<img src="/assets/portfolio_04.jpg">
 		</a>
 	</article>
