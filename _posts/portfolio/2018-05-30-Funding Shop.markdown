@@ -11,7 +11,7 @@ tags: portfolio
 
 <section class="pofo_con">
 	<article>
-		<a href="http://fundingshop.co.kr" target="_blank">
+		<a href="http://laplustest.fundingshop.co.kr" target="_blank">
 			<img src="/assets/portfolio_02.jpg">
 		</a>
 	</article>
