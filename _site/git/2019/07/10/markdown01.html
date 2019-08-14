@@ -1,0 +1,523 @@
+<!DOCTYPE html>
+<html>
+
+  <head>
+  <meta charset="utf-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+
+  <title>마크다운(markdown) 정리 (1)</title>
+  <meta name="description" content="GithubPage 블로그 사용필수언어깃 블로그의 시작은 스킨셋팅 후 알아야 하는 기본이 마크다운(markdown)이라고 생각한다. 천천히 기초부터 쌓아보자:D ">
+  
+  <meta name="author" content="jjeonn">
+  <meta name="copyright" content="&copy; jjeonn ">
+  
+
+  <!-- External libraries -->
+  <link rel="stylesheet" href="//maxcdn.bootstrapcdn.com/font-awesome/4.6.3/css/font-awesome.min.css">
+  <link rel="stylesheet" href="//cdnjs.cloudflare.com/ajax/libs/highlight.js/9.9.0/styles/monokai-sublime.min.css">
+  <link rel="stylesheet" href="//cdnjs.cloudflare.com/ajax/libs/lightbox2/2.7.1/css/lightbox.css">
+
+  <!-- Favicon and other icons (made with http://www.favicon-generator.org/) -->
+  <link rel="shortcut icon" href="/assets/icons/favicon_ny.ico" type="image/x-icon">
+  <link rel="icon" href="/assets/icons/favicon_ny.ico" type="image/x-icon">
+  <link rel="apple-touch-icon" sizes="57x57" href="/assets/icons/apple-icon-57x57.png">
+  <link rel="apple-touch-icon" sizes="60x60" href="/assets/icons/apple-icon-60x60.png">
+  <link rel="apple-touch-icon" sizes="72x72" href="/assets/icons/apple-icon-72x72.png">
+  <link rel="apple-touch-icon" sizes="76x76" href="/assets/icons/apple-icon-76x76.png">
+  <link rel="apple-touch-icon" sizes="114x114" href="/assets/icons/apple-icon-114x114.png">
+  <link rel="apple-touch-icon" sizes="120x120" href="/assets/icons/apple-icon-120x120.png">
+  <link rel="apple-touch-icon" sizes="144x144" href="/assets/icons/apple-icon-144x144.png">
+  <link rel="apple-touch-icon" sizes="152x152" href="/assets/icons/apple-icon-152x152.png">
+  <link rel="apple-touch-icon" sizes="180x180" href="/assets/icons/apple-icon-180x180.png">
+  <link rel="icon" type="image/png" sizes="192x192"  href="/assets/icons/android-icon-192x192.png">
+  <link rel="icon" type="image/png" sizes="32x32" href="/assets/icons/favicon-32x32.png">
+  <link rel="icon" type="image/png" sizes="96x96" href="/assets/icons/favicon-96x96.png">
+  <link rel="icon" type="image/png" sizes="16x16" href="/assets/icons/favicon-16x16.png">
+  <link rel="manifest" href="/assets/icons/manifest.json">
+  <meta name="msapplication-TileColor" content="#ffffff">
+  <meta name="msapplication-TileImage" content="/assets/icons/ms-icon-144x144.png">
+  <meta name="theme-color" content="#ffffff">
+
+  
+  <!-- Facebook OGP cards -->
+  <meta property="og:description" content="GithubPage 블로그 사용필수언어깃 블로그의 시작은 스킨셋팅 후 알아야 하는 기본이 마크다운(markdown)이라고 생각한다. 천천히 기초부터 쌓아보자:D " />
+  <meta property="og:url" content="http://jjeonn.github.io" />
+  <meta property="og:site_name" content="" />
+  <meta property="og:title" content="마크다운(markdown) 정리 (1)" />
+  <meta property="og:type" content="website" />
+  <meta property="og:image" content="http://jjeonn.github.io/assets/logo.png" />
+  <meta property="og:image:type" content="image/png" />
+  <meta property="og:image:width" content="612" />
+  <meta property="og:image:height" content="605" />
+  
+
+  
+  <!-- Twitter: card tags -->
+  <meta name="twitter:card" content="summary">
+  <meta name="twitter:title" content="마크다운(markdown) 정리 (1)">
+  <meta name="twitter:description" content="GithubPage 블로그 사용필수언어깃 블로그의 시작은 스킨셋팅 후 알아야 하는 기본이 마크다운(markdown)이라고 생각한다. 천천히 기초부터 쌓아보자:D ">
+  <meta name="twitter:image" content="http://jjeonn.github.io/assets/logo.png">
+  <meta name="twitter:url" content="http://jjeonn.github.io">
+  
+
+  
+
+  <!-- Site styles -->
+  <link rel="stylesheet" href="/css/main.css">
+  <link rel="canonical" href="http://jjeonn.github.io/git/2019/07/10/markdown01.html">
+  <link rel="alternate" type="application/rss+xml" title="" href="http://jjeonn.github.io/feed.xml" />
+</head>
+
+
+  <body>
+
+    <header class="navigation" role="banner">
+  <div class="navigation-wrapper">
+    <a href="/" class="logo">
+      
+      <img src="/assets/logo.png" alt="">
+      
+    </a>
+    <a href="javascript:void(0)" class="navigation-menu-button" id="js-mobile-menu">
+      <i class="fa fa-bars"></i>
+    </a>
+    <nav role="navigation">
+      <ul id="js-navigation-menu" class="navigation-menu show">
+        
+          
+          <li class="nav-link"><a href="/Portfolio/">Portfolio</a>
+          
+        
+          
+          <li class="nav-link"><a href="/about">About</a>
+          
+        
+          
+        
+          
+        
+          
+        
+          
+          <li class="nav-link"><a href="/posts/">Posts</a>
+          
+        
+          
+          <li class="nav-link"><a href="/typography/">Typography</a>
+          
+        
+          
+        
+          
+        
+      </ul>
+    </nav>
+  </div>
+</header>
+
+
+    <div class="page-content">
+        <div class="post">
+
+<div class="post-header-container " >
+  <div class="scrim ">
+    <header class="post-header">
+      <h1 class="title">마크다운(markdown) 정리 (1)</h1>
+      <p class="info">by <strong>Nayoung</strong></p>
+    </header>
+  </div>
+</div>
+
+<div class="wrapper">
+
+ <span class="page-divider">
+  <span class="one"></span>
+  <span class="two"></span>
+</span>
+ 
+
+<section class="post-meta">
+  <div class="post-date">July 10, 2019</div>
+  <div class="post-categories">
+  in 
+    
+    <a href="/category/GIT">Git</a>
+    
+  
+  </div>
+</section>
+
+<article class="post-content">
+  <h3 id="githubpage--">GithubPage 블로그 사용필수언어</h3>
+<p><span>깃 블로그의 시작은 스킨셋팅 후 알아야 하는 기본이 마크다운(markdown)이라고 생각한다.</span>
+<span class="dp-bl"> 천천히 기초부터 쌓아보자:D </span></p>
+
+<hr />
+
+<p><strong>마크다운(markdown)</strong>은 일반 텍스트 문서의 양식을 편집하는 문법이다.
+README 파일이나 온라인 문서, 혹은 일반 텍스트 편집기로 문서 양식을 편집할 때 쓰인다. 마크다운을 이용해 작성된 문서는 쉽게 HTML 등 다른 문서형태로 변환이 가능하다.</p>
+
+<hr />
+
+<h1 id="header">1.헤더(Header)</h1>
+<p><span class="ft1 dp-bl"> 글머리는 1~6까지만 지원한다</span></p>
+
+<div class="highlighter-rouge"><pre class="highlight"><code> Header1
+ ======
+ Header(small)
+ -------------
+</code></pre>
+</div>
+
+<h1 id="header1">Header1</h1>
+
+<h2 id="headersmall">Header(small)</h2>
+
+<div class="highlighter-rouge"><pre class="highlight"><code> # Header1
+ ## Header2
+ ### Header3
+ #### Header4
+ ##### Header5
+ ###### Header6
+</code></pre>
+</div>
+<h1 id="header1-1">Header1</h1>
+<h2 id="header2">Header2</h2>
+<h3 id="header3">Header3</h3>
+<h4 id="header4">Header4</h4>
+<h5 id="header5">Header5</h5>
+<h6 id="header6">Header6</h6>
+
+<hr />
+
+<h1 id="blockquote">2.인용(BlockQuote)</h1>
+<p><span class="ft1 dp-bl">블럭인용문자 <code class="highlighter-rouge">&gt;</code> 를 이용한다.</span></p>
+<div class="highlighter-rouge"><pre class="highlight"><code>&gt;  안녕?
+&gt; &gt; 안녕?
+&gt; &gt; &gt; 안녕?
+</code></pre>
+</div>
+
+<blockquote>
+  <p>안녕?</p>
+  <blockquote>
+    <p>안녕?</p>
+    <blockquote>
+      <p>안녕?</p>
+    </blockquote>
+  </blockquote>
+</blockquote>
+
+<p>이 안에서는 다른 마크다운 요소를 포함할 수 있다.</p>
+<div class="highlighter-rouge"><pre class="highlight"><code>&gt; #### Header4
+&gt; * one
+&gt; * two
+&gt;	```
+&gt;	code
+&gt;	```
+</code></pre>
+</div>
+
+<blockquote>
+  <h4 id="header4-1">Header4</h4>
+  <ul>
+    <li>one</li>
+    <li>two
+  <code class="highlighter-rouge">
+  code
+ </code></li>
+  </ul>
+</blockquote>
+
+<hr />
+
+<h1 id="text-decoration">3. 글자 스타일(text decoration)</h1>
+
+<ul>
+  <li>굵게
+    <div class="highlighter-rouge"><pre class="highlight"><code>  **굵은글씨**
+  __굵은글씨__
+</code></pre>
+    </div>
+    <p><strong>굵은글씨</strong>
+<strong>굵은글씨</strong></p>
+  </li>
+  <li>기울게
+    <div class="highlighter-rouge"><pre class="highlight"><code>  *기울인글씨*
+  _기울인글씨_
+</code></pre>
+    </div>
+    <p><em>기울인글씨</em>
+<em>기울인글씨</em></p>
+  </li>
+  <li>기타
+    <div class="highlighter-rouge"><pre class="highlight"><code>~~직선~~
+</code></pre>
+    </div>
+    <p><del>직선</del></p>
+  </li>
+</ul>
+
+<hr />
+
+<h1 id="list">4. 목록(List)</h1>
+
+<ul>
+  <li>숫자 목록</li>
+</ul>
+
+<div class="highlighter-rouge"><pre class="highlight"><code>1.하나
+2.둘
+3.셋
+</code></pre>
+</div>
+<p>1.하나
+2.둘
+3.셋</p>
+
+<ul>
+  <li>글머리 목록</li>
+</ul>
+
+<div class="highlighter-rouge"><pre class="highlight"><code>    * One
+      * Two
+        * Three
+
+    + One
+      + Two
+        + Three
+
+    - One
+      - Two
+        - Three
+</code></pre>
+</div>
+
+<ul>
+  <li>One
+    <ul>
+      <li>Two
+        <ul>
+          <li>Three</li>
+        </ul>
+      </li>
+    </ul>
+  </li>
+  <li>One
+    <ul>
+      <li>Two
+        <ul>
+          <li>Three</li>
+        </ul>
+      </li>
+    </ul>
+  </li>
+  <li>One
+    <ul>
+      <li>Two
+        <ul>
+          <li>Three</li>
+        </ul>
+      </li>
+    </ul>
+  </li>
+</ul>
+
+<hr />
+<h1 id="codepre">5. 코드(Code/pre)</h1>
+<div class="highlighter-rouge"><pre class="highlight"><code>    This is a normal paragraph:
+        This is a code block.
+    end code block.
+
+    ``` This is a normal paragraph: This is a code block. end code block. ```
+</code></pre>
+</div>
+
+<p>This is a normal paragraph:
+    This is a code block.
+end code block.</p>
+
+<p><code class="highlighter-rouge">This is a normal paragraph: This is a code block. end code block.</code></p>
+
+</article>
+
+
+
+<section class="tags">
+  <strong>Tags:</strong> <a href="/tag/markdown">markdown</a>,&nbsp;<a href="/tag/git">git</a>,&nbsp;<a href="/tag/gitblog">gitblog</a>
+</section>
+
+
+
+<!-- <section class="rss">
+  <p class="rss-subscribe text"><strong>Subscribe <a href="/feed.xml">via RSS</a></strong></p>
+</section> -->
+
+<section class="share">
+  <span>Share: </span>
+  
+    
+    
+    
+    
+    
+    
+    
+    
+  
+    
+    
+    
+    
+      <a href="//plus.google.com/share?title=%EB%A7%88%ED%81%AC%EB%8B%A4%EC%9A%B4%28markdown%29+%EC%A0%95%EB%A6%AC+%281%29&url=http%3A%2F%2Fjjeonn.github.io%2Fgit%2F2019%2F07%2F10%2Fmarkdown01.html"
+        onclick="window.open(this.href, 'google-plus-share', 'width=550,height=255');return false;">
+        <i class="fa fa-google-plus-square fa-lg"></i>
+      </a>
+    
+    
+    
+    
+    
+  
+    
+    
+    
+    
+    
+    
+    
+    
+  
+    
+    
+    
+    
+    
+    
+    
+    
+  
+</section>
+
+
+
+
+</div>
+</div>
+
+    </div>
+
+    <footer class="site-footer">
+
+  <div class="wrapper">
+
+    <h3 class="footer-heading"></h3>
+
+    <div class="site-navigation">
+
+      <p><strong>Site Map</strong></p>
+      <ul class="pages">
+        
+        
+          <li class="nav-link"><a href="/Portfolio/">Portfolio</a>
+        
+        
+        
+          <li class="nav-link"><a href="/about">About</a>
+        
+        
+        
+        
+        
+        
+        
+        
+        
+          <li class="nav-link"><a href="/posts/">Posts</a>
+        
+        
+        
+          <li class="nav-link"><a href="/typography/">Typography</a>
+        
+        
+        
+        
+        
+        
+      </ul>
+    </div>
+
+    <div class="site-contact">
+
+      <p><strong>Contact</strong></p>
+      <ul class="social-media-list">
+        <li>
+          <a href="mailto:jjeonn2014@gmail.com">
+            <i class="fa fa-envelope-o"></i>
+            <span class="username">jjeonn2014@gmail.com</span>
+          </a>
+        </li>
+
+        
+          
+          <li>
+            <a href="https://github.com/jjeonn" title="Fork me on GitHub">
+              <i class="fa fa-github"></i>
+              <span class="username">jjeonn</span>
+            </a>
+          </li>
+          
+        
+          
+        
+          
+        
+          
+        
+
+      </ul>
+    </div>
+
+    <div class="site-signature">
+<!--       <p class="rss-subscribe text"><strong>Subscribe <a href="/feed.xml">via RSS</a></strong></p> -->
+      <p class="text">HI welcome my blog.</p>
+    </div>
+
+  </div>
+
+</footer>
+
+<!-- Scripts -->
+<script src="//code.jquery.com/jquery-1.11.2.min.js"></script>
+<script src="//cdnjs.cloudflare.com/ajax/libs/highlight.js/8.5/highlight.min.js"></script>
+<script src="//cdnjs.cloudflare.com/ajax/libs/lightbox2/2.7.1/js/lightbox.min.js"></script>
+
+<script type="text/javascript">
+$(document).ready(function() {
+  // Default syntax highlighting
+  hljs.initHighlightingOnLoad();
+
+  // Header
+  var menuToggle = $('#js-mobile-menu').unbind();
+  $('#js-navigation-menu').removeClass("show");
+  menuToggle.on('click', function(e) {
+    e.preventDefault();
+    $('#js-navigation-menu').slideToggle(function(){
+      if($('#js-navigation-menu').is(':hidden')) {
+        $('#js-navigation-menu').removeAttr('style');
+      }
+    });
+  });
+});
+
+</script>
+
+
+
+
+
+
+  </body>
+
+</html>

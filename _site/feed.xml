@@ -1,0 +1,703 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title></title>
+    <description>HI welcome my blog.</description>
+    <link>http://jjeonn.github.io/</link>
+    <atom:link href="http://jjeonn.github.io/feed.xml" rel="self" type="application/rss+xml"/>
+    <pubDate>Wed, 14 Aug 2019 11:39:03 +0900</pubDate>
+    <lastBuildDate>Wed, 14 Aug 2019 11:39:03 +0900</lastBuildDate>
+    <generator>Jekyll v3.2.1</generator>
+    
+      <item>
+        <title>[DEMO]</title>
+        <description>&lt;section class=&quot;pofo_con&quot;&gt;
+	&lt;article&gt;
+		&lt;a href=&quot;http://demo.goodbit.co.kr&quot; target=&quot;_blank&quot;&gt;
+			&lt;img src=&quot;/assets/portfolio_09.jpg&quot; /&gt;
+		&lt;/a&gt;
+	&lt;/article&gt;
+	&lt;article class=&quot;pofo_left&quot;&gt;
+		&lt;h4&gt;
+			&lt;strong&gt;coin 거래소&lt;/strong&gt;
+			&lt;span&gt;2018-2019&lt;/span&gt;
+		&lt;/h4&gt;
+
+		&lt;div&gt;
+			&lt;p class=&quot;pofo_content&quot;&gt;사업 초기 기획을 기반으로 디자인 및 퍼블이 리뉴얼된 사이트&lt;/p&gt;
+			&lt;p class=&quot;pofo_content&quot;&gt;IE호환성을 바로잡고 동적인 기술들을 많이쓰려고 노력했다.&lt;/p&gt;
+			&lt;p class=&quot;pofo_content&quot;&gt;지금까지와 같이 앞으로도 계속 리뉴얼 할 DEMO&lt;/p&gt;
+		&lt;/div&gt;
+		&lt;ul class=&quot;pofo_ul&quot;&gt;
+			&lt;li&gt;HTML&lt;/li&gt;
+			&lt;li&gt;CSS&lt;/li&gt;
+			&lt;li&gt;JQURY&lt;/li&gt;
+			&lt;li&gt;SCRIPT&lt;/li&gt;
+		&lt;/ul&gt;		
+		&lt;div&gt;
+			&lt;p&gt;기여도&lt;/p&gt; &lt;span&gt;100%&lt;/span&gt;
+		&lt;/div&gt;
+	&lt;/article&gt;
+&lt;/section&gt;
+</description>
+        <pubDate>Wed, 07 Aug 2019 00:00:00 +0900</pubDate>
+        <link>http://jjeonn.github.io/portfolio/2019/08/07/Demo.html</link>
+        <guid isPermaLink="true">http://jjeonn.github.io/portfolio/2019/08/07/Demo.html</guid>
+        
+        <category>portfolio</category>
+        
+        
+        <category>portfolio</category>
+        
+      </item>
+    
+      <item>
+        <title>[THE REALTY]</title>
+        <description>&lt;section class=&quot;pofo_con&quot;&gt;
+	&lt;article&gt;
+		&lt;a href=&quot;http://realty.intowinsoft.com&quot; target=&quot;_blank&quot;&gt;
+			&lt;img src=&quot;/assets/portfolio_01.jpg&quot; /&gt;
+		&lt;/a&gt;
+	&lt;/article&gt;
+	&lt;article class=&quot;pofo_left&quot;&gt;
+		&lt;h4&gt;
+			&lt;strong&gt;부동산중개&lt;/strong&gt;
+			&lt;span&gt;2016.06.23 ~ 2016.06.30&lt;/span&gt;
+		&lt;/h4&gt;
+
+		&lt;div&gt;
+			&lt;p class=&quot;pofo_content&quot;&gt;첫회사 첫직장의 첫 프로젝트!&lt;/p&gt;
+			&lt;p class=&quot;pofo_content&quot;&gt;혼자하는 단순한 코딩업무에 간단한 제이쿼리가 들어간 사이트 였지만 심플한 내용에 첫 프로젝트&lt;/p&gt;
+		&lt;/div&gt;
+		&lt;ul class=&quot;pofo_ul&quot;&gt;
+			&lt;li&gt;HTML&lt;/li&gt;
+			&lt;li&gt;CSS&lt;/li&gt;
+			&lt;li&gt;JQURY&lt;/li&gt;
+		&lt;/ul&gt;		
+		&lt;div&gt;
+			&lt;p&gt;기여도&lt;/p&gt; &lt;span&gt;100%&lt;/span&gt;
+		&lt;/div&gt;
+	&lt;/article&gt;
+&lt;/section&gt;
+
+&lt;!-- &lt;a href=&quot;http://realty.intowinsoft.com&quot;&gt;
+	&lt;img src=&quot;https://jjeonn.github.io/assets/portfolio01.png&quot; style=&quot;width:50%;&quot;&gt;
+&lt;/a&gt;
+[![더리얼티](/assets/portfolio01.png)](http://realty.intowinsoft.com){: target=&quot;_blank&quot;}
+[![더리얼티](/assets/01.jpg)](http://realty.intowinsoft.com){: target=&quot;_blank&quot;} --&gt;
+</description>
+        <pubDate>Wed, 17 Jul 2019 00:00:00 +0900</pubDate>
+        <link>http://jjeonn.github.io/portfolio/2019/07/17/test05.html</link>
+        <guid isPermaLink="true">http://jjeonn.github.io/portfolio/2019/07/17/test05.html</guid>
+        
+        <category>portfolio</category>
+        
+        
+        <category>portfolio</category>
+        
+      </item>
+    
+      <item>
+        <title>마크다운(markdown) 정리 (2)</title>
+        <description>&lt;h3 id=&quot;markdown--&quot;&gt;마크다운(markdown)을 이용한 링크/표&lt;/h3&gt;
+&lt;p&gt;&lt;span&gt; 블로그 포스팅을 할때 자주 쓰는 text에 링크거는 방법과 표(table)를 만드는법을 알아보자! &lt;/span&gt;&lt;/p&gt;
+
+&lt;hr /&gt;
+
+&lt;h1 id=&quot;link&quot;&gt;1. 링크(Link)&lt;/h1&gt;
+&lt;p&gt;&lt;span class=&quot;ft1 dp-bl&quot;&gt;주소삽입 방법은 여러가지가 있다.&lt;/span&gt;&lt;/p&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;인라인 링크
+    &lt;div class=&quot;highlighter-rouge&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;  [링크를담을텍스트](담은텍스트에 가고싶은링크)
+  [Google URL](https://www.google.com)
+&lt;/code&gt;&lt;/pre&gt;
+    &lt;/div&gt;
+    &lt;p&gt;&lt;a href=&quot;https://www.google.com&quot;&gt;Google URL&lt;/a&gt;&lt;/p&gt;
+  &lt;/li&gt;
+  &lt;li&gt;참조 링크
+&lt;span class=&quot;ft1 dp-bl&quot;&gt;순서에 상관 없이 &lt;code class=&quot;highlighter-rouge&quot;&gt;[ ]&lt;/code&gt;안의 텍스트나 숫자 안에 URL을 담아 사용한다.&lt;/span&gt;
+    &lt;div class=&quot;highlighter-rouge&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;  [Google URL][1]구글링크 입니다.
+  [Naver URL][2]네이버 링크입니다.
+  이부분은 [구글]을 참조할 수 있습니다.
+
+  [구글]:https://www.google.com/
+  [1]:https://www.google.com/
+  [2]:https://www.naver.com/
+&lt;/code&gt;&lt;/pre&gt;
+    &lt;/div&gt;
+    &lt;p&gt;&lt;a href=&quot;https://www.google.com/&quot;&gt;Google URL&lt;/a&gt;구글 링크입니다.
+&lt;a href=&quot;https://www.naver.com/&quot;&gt;Naver URL&lt;/a&gt;네이버 링크입니다.
+이부분은 &lt;a href=&quot;https://www.google.com/&quot;&gt;구글&lt;/a&gt;를 참조할 수 있습니다&lt;/p&gt;
+  &lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;새창 링크
+&lt;span class=&quot;ft1 dp-bl&quot;&gt;링크를 새창으로 띄우려면 &lt;code class=&quot;highlighter-rouge&quot;&gt;&lt;span class=&quot;p&quot;&gt;{&lt;/span&gt;&lt;span class=&quot;err&quot;&gt;:&lt;/span&gt;&lt;span class=&quot;w&quot;&gt; &lt;/span&gt;&lt;span class=&quot;err&quot;&gt;target=&lt;/span&gt;&lt;span class=&quot;nt&quot;&gt;&quot;_blank&quot;&lt;/span&gt;&lt;span class=&quot;err&quot;&gt;}&lt;/span&gt;&lt;/code&gt; 를 링크뒤에 넣어준다.&lt;/span&gt;
+    &lt;div class=&quot;highlighter-rouge&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;  [링크를담을텍스트](담은텍스트에 가고싶은링크)[새창띄울게요]
+  [Google URL](https://www.google.com){: target=&quot;_blank&quot;}
+&lt;/code&gt;&lt;/pre&gt;
+    &lt;/div&gt;
+    &lt;p&gt;&lt;a href=&quot;https://www.google.com&quot; target=&quot;_blank&quot;&gt;Google URL&lt;/a&gt;&lt;/p&gt;
+  &lt;/li&gt;
+  &lt;li&gt;이미지 링크
+    &lt;div class=&quot;highlighter-rouge&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;[![대체 텍스트](이미지 경로)](이미지에 넣고싶은 링크)
+[![내블로그](/assets/icons/ms-icon-70x70.png)](https://jjeonn.github.io)
+&lt;/code&gt;&lt;/pre&gt;
+    &lt;/div&gt;
+    &lt;p&gt;&lt;a href=&quot;https://jjeonn.github.io&quot;&gt;&lt;img src=&quot;/assets/icons/ms-icon-70x70.png&quot; alt=&quot;내블로그&quot; /&gt;&lt;/a&gt;&lt;/p&gt;
+  &lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;hr /&gt;
+
+&lt;h1 id=&quot;table&quot;&gt;2. 표 만들기(Table)&lt;/h1&gt;
+&lt;p&gt;&lt;span class=&quot;ft1 dp-bl&quot;&gt;&lt;code class=&quot;highlighter-rouge&quot;&gt;|&lt;/code&gt; ‘Vertical Bar’ 와 &lt;code class=&quot;highlighter-rouge&quot;&gt;-&lt;/code&gt; ‘Hyphen’로 표를 만들 수 있다. &lt;/span&gt;&lt;/p&gt;
+
+&lt;blockquote&gt;
+  &lt;p&gt;기본 표&lt;/p&gt;
+&lt;/blockquote&gt;
+
+&lt;div class=&quot;highlighter-rouge&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;|Header1|Header2|Header3|
+|-----------|-----------|----------|
+|content|content|content|
+&lt;/code&gt;&lt;/pre&gt;
+&lt;/div&gt;
+
+&lt;table&gt;
+  &lt;thead&gt;
+    &lt;tr&gt;
+      &lt;th&gt;Header1&lt;/th&gt;
+      &lt;th&gt;Header2&lt;/th&gt;
+      &lt;th&gt;Header3&lt;/th&gt;
+    &lt;/tr&gt;
+  &lt;/thead&gt;
+  &lt;tbody&gt;
+    &lt;tr&gt;
+      &lt;td&gt;content&lt;/td&gt;
+      &lt;td&gt;content&lt;/td&gt;
+      &lt;td&gt;content&lt;/td&gt;
+    &lt;/tr&gt;
+  &lt;/tbody&gt;
+&lt;/table&gt;
+
+&lt;blockquote&gt;
+  &lt;p&gt;표 정렬&lt;/p&gt;
+&lt;/blockquote&gt;
+
+&lt;div class=&quot;highlighter-rouge&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;|Header1|Header2|Header3|Header4|
+|-----------|:-----------:|:-----------|----------:|
+|기존|가운데|왼쪽|오른쪽|
+&lt;/code&gt;&lt;/pre&gt;
+&lt;/div&gt;
+
+&lt;table&gt;
+  &lt;thead&gt;
+    &lt;tr&gt;
+      &lt;th&gt;Header1&lt;/th&gt;
+      &lt;th style=&quot;text-align: center&quot;&gt;Header2&lt;/th&gt;
+      &lt;th style=&quot;text-align: left&quot;&gt;Header3&lt;/th&gt;
+      &lt;th style=&quot;text-align: right&quot;&gt;Header4&lt;/th&gt;
+    &lt;/tr&gt;
+  &lt;/thead&gt;
+  &lt;tbody&gt;
+    &lt;tr&gt;
+      &lt;td&gt;기존&lt;/td&gt;
+      &lt;td style=&quot;text-align: center&quot;&gt;가운데&lt;/td&gt;
+      &lt;td style=&quot;text-align: left&quot;&gt;왼쪽&lt;/td&gt;
+      &lt;td style=&quot;text-align: right&quot;&gt;오른쪽&lt;/td&gt;
+    &lt;/tr&gt;
+  &lt;/tbody&gt;
+&lt;/table&gt;
+
+</description>
+        <pubDate>Sat, 13 Jul 2019 23:43:59 +0900</pubDate>
+        <link>http://jjeonn.github.io/git/2019/07/13/markdown02.html</link>
+        <guid isPermaLink="true">http://jjeonn.github.io/git/2019/07/13/markdown02.html</guid>
+        
+        <category>markdown</category>
+        
+        <category>git</category>
+        
+        <category>gitblog</category>
+        
+        
+        <category>GIT</category>
+        
+      </item>
+    
+      <item>
+        <title>마크다운(markdown) 정리 (1)</title>
+        <description>&lt;h3 id=&quot;githubpage--&quot;&gt;GithubPage 블로그 사용필수언어&lt;/h3&gt;
+&lt;p&gt;&lt;span&gt;깃 블로그의 시작은 스킨셋팅 후 알아야 하는 기본이 마크다운(markdown)이라고 생각한다.&lt;/span&gt;
+&lt;span class=&quot;dp-bl&quot;&gt; 천천히 기초부터 쌓아보자:D &lt;/span&gt;&lt;/p&gt;
+
+&lt;hr /&gt;
+
+&lt;p&gt;&lt;strong&gt;마크다운(markdown)&lt;/strong&gt;은 일반 텍스트 문서의 양식을 편집하는 문법이다.
+README 파일이나 온라인 문서, 혹은 일반 텍스트 편집기로 문서 양식을 편집할 때 쓰인다. 마크다운을 이용해 작성된 문서는 쉽게 HTML 등 다른 문서형태로 변환이 가능하다.&lt;/p&gt;
+
+&lt;hr /&gt;
+
+&lt;h1 id=&quot;header&quot;&gt;1.헤더(Header)&lt;/h1&gt;
+&lt;p&gt;&lt;span class=&quot;ft1 dp-bl&quot;&gt; 글머리는 1~6까지만 지원한다&lt;/span&gt;&lt;/p&gt;
+
+&lt;div class=&quot;highlighter-rouge&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt; Header1
+ ======
+ Header(small)
+ -------------
+&lt;/code&gt;&lt;/pre&gt;
+&lt;/div&gt;
+
+&lt;h1 id=&quot;header1&quot;&gt;Header1&lt;/h1&gt;
+
+&lt;h2 id=&quot;headersmall&quot;&gt;Header(small)&lt;/h2&gt;
+
+&lt;div class=&quot;highlighter-rouge&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt; # Header1
+ ## Header2
+ ### Header3
+ #### Header4
+ ##### Header5
+ ###### Header6
+&lt;/code&gt;&lt;/pre&gt;
+&lt;/div&gt;
+&lt;h1 id=&quot;header1-1&quot;&gt;Header1&lt;/h1&gt;
+&lt;h2 id=&quot;header2&quot;&gt;Header2&lt;/h2&gt;
+&lt;h3 id=&quot;header3&quot;&gt;Header3&lt;/h3&gt;
+&lt;h4 id=&quot;header4&quot;&gt;Header4&lt;/h4&gt;
+&lt;h5 id=&quot;header5&quot;&gt;Header5&lt;/h5&gt;
+&lt;h6 id=&quot;header6&quot;&gt;Header6&lt;/h6&gt;
+
+&lt;hr /&gt;
+
+&lt;h1 id=&quot;blockquote&quot;&gt;2.인용(BlockQuote)&lt;/h1&gt;
+&lt;p&gt;&lt;span class=&quot;ft1 dp-bl&quot;&gt;블럭인용문자 &lt;code class=&quot;highlighter-rouge&quot;&gt;&amp;gt;&lt;/code&gt; 를 이용한다.&lt;/span&gt;&lt;/p&gt;
+&lt;div class=&quot;highlighter-rouge&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;&amp;gt;  안녕?
+&amp;gt; &amp;gt; 안녕?
+&amp;gt; &amp;gt; &amp;gt; 안녕?
+&lt;/code&gt;&lt;/pre&gt;
+&lt;/div&gt;
+
+&lt;blockquote&gt;
+  &lt;p&gt;안녕?&lt;/p&gt;
+  &lt;blockquote&gt;
+    &lt;p&gt;안녕?&lt;/p&gt;
+    &lt;blockquote&gt;
+      &lt;p&gt;안녕?&lt;/p&gt;
+    &lt;/blockquote&gt;
+  &lt;/blockquote&gt;
+&lt;/blockquote&gt;
+
+&lt;p&gt;이 안에서는 다른 마크다운 요소를 포함할 수 있다.&lt;/p&gt;
+&lt;div class=&quot;highlighter-rouge&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;&amp;gt; #### Header4
+&amp;gt; * one
+&amp;gt; * two
+&amp;gt;	```
+&amp;gt;	code
+&amp;gt;	```
+&lt;/code&gt;&lt;/pre&gt;
+&lt;/div&gt;
+
+&lt;blockquote&gt;
+  &lt;h4 id=&quot;header4-1&quot;&gt;Header4&lt;/h4&gt;
+  &lt;ul&gt;
+    &lt;li&gt;one&lt;/li&gt;
+    &lt;li&gt;two
+  &lt;code class=&quot;highlighter-rouge&quot;&gt;
+  code
+ &lt;/code&gt;&lt;/li&gt;
+  &lt;/ul&gt;
+&lt;/blockquote&gt;
+
+&lt;hr /&gt;
+
+&lt;h1 id=&quot;text-decoration&quot;&gt;3. 글자 스타일(text decoration)&lt;/h1&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;굵게
+    &lt;div class=&quot;highlighter-rouge&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;  **굵은글씨**
+  __굵은글씨__
+&lt;/code&gt;&lt;/pre&gt;
+    &lt;/div&gt;
+    &lt;p&gt;&lt;strong&gt;굵은글씨&lt;/strong&gt;
+&lt;strong&gt;굵은글씨&lt;/strong&gt;&lt;/p&gt;
+  &lt;/li&gt;
+  &lt;li&gt;기울게
+    &lt;div class=&quot;highlighter-rouge&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;  *기울인글씨*
+  _기울인글씨_
+&lt;/code&gt;&lt;/pre&gt;
+    &lt;/div&gt;
+    &lt;p&gt;&lt;em&gt;기울인글씨&lt;/em&gt;
+&lt;em&gt;기울인글씨&lt;/em&gt;&lt;/p&gt;
+  &lt;/li&gt;
+  &lt;li&gt;기타
+    &lt;div class=&quot;highlighter-rouge&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;~~직선~~
+&lt;/code&gt;&lt;/pre&gt;
+    &lt;/div&gt;
+    &lt;p&gt;&lt;del&gt;직선&lt;/del&gt;&lt;/p&gt;
+  &lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;hr /&gt;
+
+&lt;h1 id=&quot;list&quot;&gt;4. 목록(List)&lt;/h1&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;숫자 목록&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;div class=&quot;highlighter-rouge&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;1.하나
+2.둘
+3.셋
+&lt;/code&gt;&lt;/pre&gt;
+&lt;/div&gt;
+&lt;p&gt;1.하나
+2.둘
+3.셋&lt;/p&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;글머리 목록&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;div class=&quot;highlighter-rouge&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;    * One
+      * Two
+        * Three
+
+    + One
+      + Two
+        + Three
+
+    - One
+      - Two
+        - Three
+&lt;/code&gt;&lt;/pre&gt;
+&lt;/div&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;One
+    &lt;ul&gt;
+      &lt;li&gt;Two
+        &lt;ul&gt;
+          &lt;li&gt;Three&lt;/li&gt;
+        &lt;/ul&gt;
+      &lt;/li&gt;
+    &lt;/ul&gt;
+  &lt;/li&gt;
+  &lt;li&gt;One
+    &lt;ul&gt;
+      &lt;li&gt;Two
+        &lt;ul&gt;
+          &lt;li&gt;Three&lt;/li&gt;
+        &lt;/ul&gt;
+      &lt;/li&gt;
+    &lt;/ul&gt;
+  &lt;/li&gt;
+  &lt;li&gt;One
+    &lt;ul&gt;
+      &lt;li&gt;Two
+        &lt;ul&gt;
+          &lt;li&gt;Three&lt;/li&gt;
+        &lt;/ul&gt;
+      &lt;/li&gt;
+    &lt;/ul&gt;
+  &lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;hr /&gt;
+&lt;h1 id=&quot;codepre&quot;&gt;5. 코드(Code/pre)&lt;/h1&gt;
+&lt;div class=&quot;highlighter-rouge&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;    This is a normal paragraph:
+        This is a code block.
+    end code block.
+
+    ``` This is a normal paragraph: This is a code block. end code block. ```
+&lt;/code&gt;&lt;/pre&gt;
+&lt;/div&gt;
+
+&lt;p&gt;This is a normal paragraph:
+    This is a code block.
+end code block.&lt;/p&gt;
+
+&lt;p&gt;&lt;code class=&quot;highlighter-rouge&quot;&gt;This is a normal paragraph: This is a code block. end code block.&lt;/code&gt;&lt;/p&gt;
+</description>
+        <pubDate>Wed, 10 Jul 2019 23:43:59 +0900</pubDate>
+        <link>http://jjeonn.github.io/git/2019/07/10/markdown01.html</link>
+        <guid isPermaLink="true">http://jjeonn.github.io/git/2019/07/10/markdown01.html</guid>
+        
+        <category>markdown</category>
+        
+        <category>git</category>
+        
+        <category>gitblog</category>
+        
+        
+        <category>GIT</category>
+        
+      </item>
+    
+      <item>
+        <title>[EXABIT]</title>
+        <description>&lt;section class=&quot;pofo_con&quot;&gt;
+	&lt;article&gt;
+		&lt;a href=&quot;https://exabit.co.kr&quot; target=&quot;_blank&quot;&gt;
+			&lt;img src=&quot;/assets/portfolio_07.jpg&quot; /&gt;
+		&lt;/a&gt;
+	&lt;/article&gt;
+	&lt;article class=&quot;pofo_left&quot;&gt;
+		&lt;h4&gt;
+			&lt;strong&gt;COIN 거래소&lt;/strong&gt;
+			&lt;span&gt;2019.05 ~ 2019.07&lt;/span&gt;
+		&lt;/h4&gt;
+
+		&lt;div&gt;
+			&lt;p class=&quot;pofo_content&quot;&gt;코인을 다루는 사이트기 때문에 숫자의 범위가 넓고 그래프 때문에 고생을 좀 했던 사이트&lt;/p&gt;
+			&lt;p class=&quot;pofo_content&quot;&gt;기존 사이트들에 비해 많은 프리미엄이 붙어있는 사이트인 만큼  OTC라는 새로운 부분 추가와
+많은 기능 추가에 고생했던 곳 이다.
+&lt;/p&gt;
+		&lt;/div&gt;
+		&lt;ul class=&quot;pofo_ul&quot;&gt;
+			&lt;li&gt;HTML&lt;/li&gt;
+			&lt;li&gt;CSS&lt;/li&gt;
+			&lt;li&gt;JQURY&lt;/li&gt;
+			&lt;li&gt;SCRIPT&lt;/li&gt;
+		&lt;/ul&gt;		
+		&lt;div&gt;
+			&lt;p&gt;기여도&lt;/p&gt; &lt;span&gt;100%&lt;/span&gt;
+		&lt;/div&gt;
+	&lt;/article&gt;
+&lt;/section&gt;
+</description>
+        <pubDate>Thu, 30 May 2019 00:00:00 +0900</pubDate>
+        <link>http://jjeonn.github.io/portfolio/2019/05/30/Exabit.html</link>
+        <guid isPermaLink="true">http://jjeonn.github.io/portfolio/2019/05/30/Exabit.html</guid>
+        
+        <category>portfolio</category>
+        
+        
+        <category>portfolio</category>
+        
+      </item>
+    
+      <item>
+        <title>[펀딩샵]</title>
+        <description>&lt;section class=&quot;pofo_con&quot;&gt;
+	&lt;article&gt;
+		&lt;a href=&quot;http://laplustest.fundingshop.co.kr&quot; target=&quot;_blank&quot;&gt;
+			&lt;img src=&quot;/assets/portfolio_02.jpg&quot; /&gt;
+		&lt;/a&gt;
+	&lt;/article&gt;
+	&lt;article class=&quot;pofo_left&quot;&gt;
+		&lt;h4&gt;
+			&lt;strong&gt;P2P&lt;/strong&gt;
+			&lt;span&gt;2018.04 ~ 2018.05&lt;/span&gt;
+		&lt;/h4&gt;
+
+		&lt;div&gt;
+			&lt;p class=&quot;pofo_content&quot;&gt;숫자의 수치 변화를 중요시 한 업체&lt;/p&gt;
+			&lt;p class=&quot;pofo_content&quot;&gt;깔끔하고 안정적인 디자인으로 급하게 마무리되어 아쉬움이 남는곳&lt;/p&gt;
+		&lt;/div&gt;
+		&lt;ul class=&quot;pofo_ul&quot;&gt;
+			&lt;li&gt;HTML&lt;/li&gt;
+			&lt;li&gt;CSS&lt;/li&gt;
+			&lt;li&gt;JQURY&lt;/li&gt;
+			&lt;li&gt;SCRIPT&lt;/li&gt;
+		&lt;/ul&gt;		
+		&lt;div&gt;
+			&lt;p&gt;기여도&lt;/p&gt; &lt;span&gt;100%&lt;/span&gt;
+		&lt;/div&gt;
+	&lt;/article&gt;
+&lt;/section&gt;
+</description>
+        <pubDate>Wed, 30 May 2018 00:00:00 +0900</pubDate>
+        <link>http://jjeonn.github.io/portfolio/2018/05/30/Funding-Shop.html</link>
+        <guid isPermaLink="true">http://jjeonn.github.io/portfolio/2018/05/30/Funding-Shop.html</guid>
+        
+        <category>portfolio</category>
+        
+        
+        <category>portfolio</category>
+        
+      </item>
+    
+      <item>
+        <title>[비즈펀딩]</title>
+        <description>&lt;section class=&quot;pofo_con&quot;&gt;
+	&lt;article&gt;
+		&lt;a href=&quot;https://bizfund.kr&quot; target=&quot;_blank&quot;&gt;
+			&lt;img src=&quot;/assets/portfolio_04.jpg&quot; /&gt;
+		&lt;/a&gt;
+	&lt;/article&gt;
+	&lt;article class=&quot;pofo_left&quot;&gt;
+		&lt;h4&gt;
+			&lt;strong&gt;P2P&lt;/strong&gt;
+			&lt;span&gt;2017.07 ~ 2017.08&lt;/span&gt;
+		&lt;/h4&gt;
+
+		&lt;div&gt;
+			&lt;p class=&quot;pofo_content&quot;&gt;회사가 추구하는 가치가 뚜렸했던 곳 &lt;/p&gt;
+			&lt;p class=&quot;pofo_content&quot;&gt;심플한 jQuery와 Script가 들어간 동적인 기술을 마음껏 쓸수 있던곳&lt;/p&gt;
+		&lt;/div&gt;
+		&lt;ul class=&quot;pofo_ul&quot;&gt;
+			&lt;li&gt;HTML&lt;/li&gt;
+			&lt;li&gt;CSS&lt;/li&gt;
+			&lt;li&gt;JQURY&lt;/li&gt;
+			&lt;li&gt;SCRIPT&lt;/li&gt;
+		&lt;/ul&gt;		
+		&lt;div&gt;
+			&lt;p&gt;기여도&lt;/p&gt; &lt;span&gt;100%&lt;/span&gt;
+		&lt;/div&gt;
+	&lt;/article&gt;
+&lt;/section&gt;
+</description>
+        <pubDate>Wed, 30 Aug 2017 00:00:00 +0900</pubDate>
+        <link>http://jjeonn.github.io/portfolio/2017/08/30/Biz.html</link>
+        <guid isPermaLink="true">http://jjeonn.github.io/portfolio/2017/08/30/Biz.html</guid>
+        
+        <category>portfolio</category>
+        
+        
+        <category>portfolio</category>
+        
+      </item>
+    
+      <item>
+        <title>[코너스톤]</title>
+        <description>&lt;section class=&quot;pofo_con&quot;&gt;
+	&lt;article&gt;
+		&lt;a href=&quot;http://realty.intowinsoft.com&quot; target=&quot;_blank&quot;&gt;
+			&lt;img src=&quot;/assets/portfolio_08.jpg&quot; /&gt;
+		&lt;/a&gt;
+	&lt;/article&gt;
+	&lt;article class=&quot;pofo_left&quot;&gt;
+		&lt;h4&gt;
+			&lt;strong&gt;P2P&lt;/strong&gt;
+			&lt;span&gt;2017.07.17 ~ 2017.08.18&lt;/span&gt;
+		&lt;/h4&gt;
+
+		&lt;div&gt;
+			&lt;p class=&quot;pofo_content&quot;&gt;이전보다 좀더 많은 기술을 필요로했던 프로젝트인만큼 우여곡절이 많았던 코너스톤&lt;/p&gt;
+			&lt;p class=&quot;pofo_content&quot;&gt;중요한 정보를 한눈에 파악할 수 있는 은행 레이아웃을 원해서 **은행을 모티브로 디자인및 기술이 들어갔다.&lt;/p&gt;
+			&lt;p class=&quot;pofo_content&quot;&gt;기존 레이아웃과 전혀 다른 작업을 진행해서 모티브인 은행을 일주일간 분석해서 완료했지만 없어져버려 아쉬운사이트..&lt;/p&gt;
+		&lt;/div&gt;
+		&lt;ul class=&quot;pofo_ul&quot;&gt;
+			&lt;li&gt;HTML&lt;/li&gt;
+			&lt;li&gt;CSS&lt;/li&gt;
+			&lt;li&gt;JQURY&lt;/li&gt;
+			&lt;li&gt;SCRIPT&lt;/li&gt;
+		&lt;/ul&gt;		
+		&lt;div&gt;
+			&lt;p&gt;기여도&lt;/p&gt; &lt;span&gt;100%&lt;/span&gt;
+		&lt;/div&gt;
+	&lt;/article&gt;
+&lt;/section&gt;
+
+&lt;section class=&quot;pofo_con&quot;&gt;
+	&lt;div class=&quot;pofo_img&quot;&gt;
+	&lt;img src=&quot;/assets/portfolio_08_01.png&quot; /&gt;
+	&lt;img src=&quot;/assets/portfolio_08_02.jpg&quot; /&gt;
+	&lt;img src=&quot;/assets/portfolio_08_03.jpg&quot; /&gt;
+	&lt;img src=&quot;/assets/portfolio_08_04.jpg&quot; /&gt;
+	&lt;img src=&quot;/assets/portfolio_08_05.jpg&quot; /&gt;
+	&lt;/div&gt;
+&lt;/section&gt;
+</description>
+        <pubDate>Fri, 18 Aug 2017 00:00:00 +0900</pubDate>
+        <link>http://jjeonn.github.io/portfolio/2017/08/18/Conerstone.html</link>
+        <guid isPermaLink="true">http://jjeonn.github.io/portfolio/2017/08/18/Conerstone.html</guid>
+        
+        <category>portfolio</category>
+        
+        
+        <category>portfolio</category>
+        
+      </item>
+    
+      <item>
+        <title>[노블펀드]</title>
+        <description>&lt;section class=&quot;pofo_con&quot;&gt;
+	&lt;article&gt;
+		&lt;a href=&quot;http://noblefund.co.kr&quot; target=&quot;_blank&quot;&gt;
+			&lt;img src=&quot;/assets/portfolio_03.jpg&quot; /&gt;
+		&lt;/a&gt;
+	&lt;/article&gt;
+	&lt;article class=&quot;pofo_left&quot;&gt;
+		&lt;h4&gt;
+			&lt;strong&gt;P2P&lt;/strong&gt;
+			&lt;span&gt;2016.06 ~ 2016.08&lt;/span&gt;
+		&lt;/h4&gt;
+
+		&lt;div&gt;
+			&lt;p class=&quot;pofo_content&quot;&gt;Web/Mobile 로 만들어 졌으며 기존틀에 크게 벗어난거 없이 구축 되었다&lt;/p&gt;
+			&lt;p class=&quot;pofo_content&quot;&gt;큰 이슈없이 만들어졌던 업체&lt;/p&gt;
+		&lt;/div&gt;
+		&lt;ul class=&quot;pofo_ul&quot;&gt;
+			&lt;li&gt;HTML&lt;/li&gt;
+			&lt;li&gt;CSS&lt;/li&gt;
+			&lt;li&gt;JQURY&lt;/li&gt;
+			&lt;li&gt;SCRIPT&lt;/li&gt;
+		&lt;/ul&gt;		
+		&lt;div&gt;
+			&lt;p&gt;기여도&lt;/p&gt; &lt;span&gt;100%&lt;/span&gt;
+		&lt;/div&gt;
+	&lt;/article&gt;
+&lt;/section&gt;
+</description>
+        <pubDate>Tue, 30 Aug 2016 00:00:00 +0900</pubDate>
+        <link>http://jjeonn.github.io/portfolio/2016/08/30/Noble.html</link>
+        <guid isPermaLink="true">http://jjeonn.github.io/portfolio/2016/08/30/Noble.html</guid>
+        
+        <category>portfolio</category>
+        
+        
+        <category>portfolio</category>
+        
+      </item>
+    
+      <item>
+        <title>[THE REALTY]</title>
+        <description>&lt;section class=&quot;pofo_con&quot;&gt;
+	&lt;article&gt;
+		&lt;a href=&quot;http://realty.intowinsoft.com&quot; target=&quot;_blank&quot;&gt;
+			&lt;img src=&quot;/assets/portfolio_01.jpg&quot; /&gt;
+		&lt;/a&gt;
+	&lt;/article&gt;
+	&lt;article class=&quot;pofo_left&quot;&gt;
+		&lt;h4&gt;
+			&lt;strong&gt;부동산중개&lt;/strong&gt;
+			&lt;span&gt;2016.06.23 ~ 2016.06.30&lt;/span&gt;
+		&lt;/h4&gt;
+
+		&lt;div&gt;
+			&lt;p class=&quot;pofo_content&quot;&gt;첫회사 첫직장의 첫 프로젝트!&lt;/p&gt;
+			&lt;p class=&quot;pofo_content&quot;&gt;혼자하는 단순한 코딩업무에 간단한 제이쿼리가 들어간 사이트 였지만 심플한 내용에 첫 프로젝트&lt;/p&gt;
+		&lt;/div&gt;
+		&lt;ul class=&quot;pofo_ul&quot;&gt;
+			&lt;li&gt;HTML&lt;/li&gt;
+			&lt;li&gt;CSS&lt;/li&gt;
+			&lt;li&gt;JQURY&lt;/li&gt;
+		&lt;/ul&gt;		
+		&lt;div&gt;
+			&lt;p&gt;기여도&lt;/p&gt; &lt;span&gt;100%&lt;/span&gt;
+		&lt;/div&gt;
+	&lt;/article&gt;
+&lt;/section&gt;
+
+&lt;!-- &lt;a href=&quot;http://realty.intowinsoft.com&quot;&gt;
+	&lt;img src=&quot;https://jjeonn.github.io/assets/portfolio01.png&quot; style=&quot;width:50%;&quot;&gt;
+&lt;/a&gt;
+[![더리얼티](/assets/portfolio01.png)](http://realty.intowinsoft.com){: target=&quot;_blank&quot;}
+[![더리얼티](/assets/01.jpg)](http://realty.intowinsoft.com){: target=&quot;_blank&quot;} --&gt;
+</description>
+        <pubDate>Thu, 30 Jun 2016 00:00:00 +0900</pubDate>
+        <link>http://jjeonn.github.io/portfolio/2016/06/30/THE-REALTY.html</link>
+        <guid isPermaLink="true">http://jjeonn.github.io/portfolio/2016/06/30/THE-REALTY.html</guid>
+        
+        <category>portfolio</category>
+        
+        
+        <category>portfolio</category>
+        
+      </item>
+    
+  </channel>
+</rss>
