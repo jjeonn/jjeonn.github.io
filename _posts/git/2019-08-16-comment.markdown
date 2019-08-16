@@ -1,0 +1,9 @@
+---
+layout: post
+title:  "Gitblog 댓글(Disqus) 적용하기"
+date:   2019-08-16 14:43:59
+author: Nayoung
+categories: [GIT]
+tags:  git gitblog
+---
+현 블로그에 적용된 댓글 서비스는 [디스커스(Disqus)](https://disqus.com)에서 제공하는 댓글 기능을 사용하고 있다.
