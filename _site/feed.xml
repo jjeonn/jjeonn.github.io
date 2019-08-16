@@ -5,9 +5,26 @@
     <description>HI welcome my blog.</description>
     <link>http://jjeonn.github.io/</link>
     <atom:link href="http://jjeonn.github.io/feed.xml" rel="self" type="application/rss+xml"/>
-    <pubDate>Fri, 16 Aug 2019 18:04:49 +0900</pubDate>
-    <lastBuildDate>Fri, 16 Aug 2019 18:04:49 +0900</lastBuildDate>
+    <pubDate>Fri, 16 Aug 2019 18:04:54 +0900</pubDate>
+    <lastBuildDate>Fri, 16 Aug 2019 18:04:54 +0900</lastBuildDate>
     <generator>Jekyll v3.2.1</generator>
+    
+      <item>
+        <title>Gitblog 댓글(Disqus) 적용하기</title>
+        <description>&lt;p&gt;현 블로그에 적용된 댓글 서비스는 &lt;a href=&quot;https://disqus.com&quot;&gt;디스커스(Disqus)&lt;/a&gt;에서 제공하는 댓글 기능을 사용하고 있다.&lt;/p&gt;
+</description>
+        <pubDate>Fri, 16 Aug 2019 00:00:00 +0900</pubDate>
+        <link>http://jjeonn.github.io/git/2019/08/16/comment.html</link>
+        <guid isPermaLink="true">http://jjeonn.github.io/git/2019/08/16/comment.html</guid>
+        
+        <category>git</category>
+        
+        <category>gitblog</category>
+        
+        
+        <category>GIT</category>
+        
+      </item>
     
       <item>
         <title>[DEMO]</title>
@@ -645,52 +662,6 @@ end code block.&lt;/p&gt;
         <pubDate>Tue, 30 Aug 2016 00:00:00 +0900</pubDate>
         <link>http://jjeonn.github.io/portfolio/2016/08/30/Noble.html</link>
         <guid isPermaLink="true">http://jjeonn.github.io/portfolio/2016/08/30/Noble.html</guid>
-        
-        <category>portfolio</category>
-        
-        
-        <category>portfolio</category>
-        
-      </item>
-    
-      <item>
-        <title>[THE REALTY]</title>
-        <description>&lt;section class=&quot;pofo_con&quot;&gt;
-	&lt;article&gt;
-		&lt;a href=&quot;http://realty.intowinsoft.com&quot; target=&quot;_blank&quot;&gt;
-			&lt;img src=&quot;/assets/portfolio_01.jpg&quot; /&gt;
-		&lt;/a&gt;
-	&lt;/article&gt;
-	&lt;article class=&quot;pofo_left&quot;&gt;
-		&lt;h4&gt;
-			&lt;strong&gt;부동산중개&lt;/strong&gt;
-			&lt;span&gt;2016.06.23 ~ 2016.06.30&lt;/span&gt;
-		&lt;/h4&gt;
-
-		&lt;div&gt;
-			&lt;p class=&quot;pofo_content&quot;&gt;첫회사 첫직장의 첫 프로젝트!&lt;/p&gt;
-			&lt;p class=&quot;pofo_content&quot;&gt;혼자하는 단순한 코딩업무에 간단한 제이쿼리가 들어간 사이트 였지만 심플한 내용에 첫 프로젝트&lt;/p&gt;
-		&lt;/div&gt;
-		&lt;ul class=&quot;pofo_ul&quot;&gt;
-			&lt;li&gt;HTML&lt;/li&gt;
-			&lt;li&gt;CSS&lt;/li&gt;
-			&lt;li&gt;JQURY&lt;/li&gt;
-		&lt;/ul&gt;		
-		&lt;div&gt;
-			&lt;p&gt;기여도&lt;/p&gt; &lt;span&gt;100%&lt;/span&gt;
-		&lt;/div&gt;
-	&lt;/article&gt;
-&lt;/section&gt;
-
-&lt;!-- &lt;a href=&quot;http://realty.intowinsoft.com&quot;&gt;
-	&lt;img src=&quot;https://jjeonn.github.io/assets/portfolio01.png&quot; style=&quot;width:50%;&quot;&gt;
-&lt;/a&gt;
-[![더리얼티](/assets/portfolio01.png)](http://realty.intowinsoft.com){: target=&quot;_blank&quot;}
-[![더리얼티](/assets/01.jpg)](http://realty.intowinsoft.com){: target=&quot;_blank&quot;} --&gt;
-</description>
-        <pubDate>Thu, 30 Jun 2016 00:00:00 +0900</pubDate>
-        <link>http://jjeonn.github.io/portfolio/2016/06/30/THE-REALTY.html</link>
-        <guid isPermaLink="true">http://jjeonn.github.io/portfolio/2016/06/30/THE-REALTY.html</guid>
         
         <category>portfolio</category>
         

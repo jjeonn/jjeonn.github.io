@@ -1,7 +1,7 @@
 ---
 layout: post
 title:  "Gitblog 댓글(Disqus) 적용하기"
-date:   2019-08-16 14:43:59
+date:   2019-08-16 
 author: Nayoung
 categories: [GIT]
 tags:  git gitblog
