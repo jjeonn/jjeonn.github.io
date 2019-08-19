@@ -369,6 +369,18 @@ p.pofo_content {
   font-weight: 700;
   letter-spacing: 1px; }
 
+.tab-conversation.active > a.publisher-nav-color span {
+  color: red !important; }
+
+.active .nav-tab > a:after, .tab-conversation.active > a:after {
+  color: red !important; }
+
+.comment__footer .author, .comment__header .author {
+  color: red !important; }
+
+.comment__footer .vote-down:hover, .comment__footer a:hover, .comment__header .vote-down:hover, .comment__header a:hover {
+  color: red !important; }
+
 @media all and (max-width: 639px) {
   .pofo_con article, .pofo_con article:nth-of-type(2) {
     width: 100%;

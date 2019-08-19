@@ -41,7 +41,9 @@ jekyll-archives:
     tag: '/tag/:name/'
 
 # Disqus comments
-# disqus_shortname: nayoung
+ # disqus_shortname: nayoung-git
+# Disqus
+discus-identifier: nayoung-github-io # add your discus identifier
 
 # Google analytics
 # ga_tracking_id: "UA-XXXX-1"
@@ -52,7 +54,7 @@ descriptions:
     desc: "Posts describing Jekyll setup techniques."
 
   - cat: git
-    desc: ""
+    desc: "Posts describing git setup techniques"
 
 
 # Social icons and sharing options

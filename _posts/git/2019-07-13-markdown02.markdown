@@ -5,6 +5,7 @@ date:   2019-07-13 14:43:59
 author: Nayoung
 categories: [GIT]
 tags: markdown git gitblog
+comments : true
 ---
 
 
@@ -86,6 +87,3 @@ tags: markdown git gitblog
 |Header1|Header2|Header3|Header4|
 |-----------|:-----------:|:-----------|----------:|
 |기존|가운데|왼쪽|오른쪽|
-
-
-
