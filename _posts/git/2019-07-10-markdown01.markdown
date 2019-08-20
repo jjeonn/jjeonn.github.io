@@ -10,7 +10,7 @@ comments : true
 
 
 
-### GithubPage 블로그 사용필수언어
+### GithubPage 블로그 사용언어
 <span>깃 블로그의 시작은 스킨셋팅 후 알아야 하는 기본이 마크다운(markdown)이라고 생각한다.</span>
 <span class="dp-bl"> 천천히 기초부터 쌓아보자:D </span>
 

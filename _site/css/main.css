@@ -424,7 +424,7 @@ html {
 .hljs, .hljs-tag, .hljs-subst {
   color: #000; }
 
-.hljs-comment, .hljs-deletion, .hljs-meta {
+.hljs-deletion, .hljs-meta {
   color: #000; }
 
 .ft1 {
