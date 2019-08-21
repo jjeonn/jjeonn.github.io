@@ -45,7 +45,7 @@ comments : true
 
 ![comment설명](/assets/post_img/comment06.png)
 
-## 2.자신의 Git에 페이지 생성 후 include해준다.
+## 2.자신의 Git에 page 생성 후 include해준다.
 
 ![comment설명](/assets/post_img/comment09.png)
 
@@ -91,7 +91,7 @@ s.setAttribute('data-timestamp', +new Date());
 
 ~~~
 
-> 사용하고 싶은 post에 omments : true 넣어 댓글을 활성화 해 준다.
+> 사용하고 싶은 post에 comments : true 넣어 댓글을 활성화 해 준다.
 
 ```
 ---

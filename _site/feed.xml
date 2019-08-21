@@ -5,8 +5,8 @@
     <description>HI welcome my blog.</description>
     <link>http://jjeonn.github.io/</link>
     <atom:link href="http://jjeonn.github.io/feed.xml" rel="self" type="application/rss+xml"/>
-    <pubDate>Wed, 21 Aug 2019 11:34:26 +0900</pubDate>
-    <lastBuildDate>Wed, 21 Aug 2019 11:34:26 +0900</lastBuildDate>
+    <pubDate>Wed, 21 Aug 2019 11:43:30 +0900</pubDate>
+    <lastBuildDate>Wed, 21 Aug 2019 11:43:30 +0900</lastBuildDate>
     <generator>Jekyll v3.2.1</generator>
     
       <item>
@@ -61,7 +61,7 @@
 
 &lt;p&gt;&lt;img src=&quot;/assets/post_img/comment06.png&quot; alt=&quot;comment설명&quot; /&gt;&lt;/p&gt;
 
-&lt;h2 id=&quot;git----include&quot;&gt;2.자신의 Git에 페이지 생성 후 include해준다.&lt;/h2&gt;
+&lt;h2 id=&quot;git-page---include&quot;&gt;2.자신의 Git에 page 생성 후 include해준다.&lt;/h2&gt;
 
 &lt;p&gt;&lt;img src=&quot;/assets/post_img/comment09.png&quot; alt=&quot;comment설명&quot; /&gt;&lt;/p&gt;
 
@@ -136,7 +136,7 @@ s.setAttribute('data-timestamp', +new Date());
 &lt;/div&gt;
 
 &lt;blockquote&gt;
-  &lt;p&gt;사용하고 싶은 post에 omments : true 넣어 댓글을 활성화 해 준다.&lt;/p&gt;
+  &lt;p&gt;사용하고 싶은 post에 comments : true 넣어 댓글을 활성화 해 준다.&lt;/p&gt;
 &lt;/blockquote&gt;
 
 &lt;div class=&quot;highlighter-rouge&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;---
