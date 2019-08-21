@@ -81,15 +81,15 @@ s.setAttribute('data-timestamp', +new Date());
 
 > 댓글이 필요한 post layout에 disqus.html을 include해준다.
 
-```
+~~~
 
-    {% if page.comments %}
-    <div id="post-disqus" class="container">
-    {% include disqus.html %}
-    </div>
-    {% endif %}
+{% if page.comments %}
+<div id="post-disqus" class="container">
+{% include disqus.html %}
+</div>
+{% endif %}
 
-```
+~~~
 
 > 사용하고 싶은 post에 omments : true 넣어 댓글을 활성화 해 준다.
 
