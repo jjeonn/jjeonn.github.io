@@ -56,6 +56,8 @@ descriptions:
   - cat: git
     desc: "Posts describing git setup techniques"
 
+  - cat: portfolio
+    desc: ""
 
 # Social icons and sharing options
 #
