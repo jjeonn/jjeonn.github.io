@@ -51,11 +51,17 @@ p.pofo_content {font-size:modular-scale(-1); line-height: 1.5; margin:0;}
 .aboutme li p span {padding-right:10px; font-weight:700; letter-spacing: 1px;}
 
 //comments
-.tab-conversation.active>a.publisher-nav-color span{color:red !important;}
-.active .nav-tab>a:after, .tab-conversation.active>a:after {color:red !important;}
-.comment__footer .author, .comment__header .author {color:red !important;}
-.comment__footer .vote-down:hover, .comment__footer a:hover, .comment__header .vote-down:hover, .comment__header a:hover {color:red !important;}
+.ny_comment {
+  .tab-conversation.active>a span {color:red !important;}
+  .tab-conversation.active>a.publisher-nav-color span{color:red !important;}
+  .active .nav-tab>a:after, .tab-conversation.active>a:after {color:red !important;}
+  .comment__footer .author, .comment__header .author {color:red !important;}
+  .comment__footer .vote-down:hover, .comment__footer a:hover, .comment__header .vote-down:hover, .comment__header a:hover {color:red !important;}
 
+}
+
+//code custom
+.hljs-string, .hljs-type, .hljs-built_in, .hljs-builtin-name, .hljs-selector-id, .hljs-selector-attr, .hljs-selector-pseudo, .hljs-addition, .hljs-variable, .hljs-template-variable {color:#16ad4c;;}
 
 @media all and (max-width: 639px) {
 .pofo_con article , .pofo_con article:nth-of-type(2)  {width:100%; float:none; padding:0;}

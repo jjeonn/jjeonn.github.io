@@ -83,11 +83,11 @@ s.setAttribute('data-timestamp', +new Date());
 
 ~~~
 
-{% if page.comments %}
+{ % if page.comments %}
 <div id="post-disqus" class="container">
-{% include disqus.html %}
+{ % include disqus.html %}
 </div>
-{% endif %}
+{ % endif %}
 
 ~~~
 

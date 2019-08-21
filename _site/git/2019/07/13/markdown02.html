@@ -322,8 +322,9 @@
 <div id="post-disqus" class="container">
 
 
-
-<div id="disqus_thread"></div>
+<div class="ny_comment">
+  <div id="disqus_thread"></div>
+</div>
 <script>
 /**
 *  RECOMMENDED CONFIGURATION VARIABLES: EDIT AND UNCOMMENT THE SECTION BELOW TO INSERT DYNAMIC VALUES FROM YOUR PLATFORM OR CMS.
@@ -342,6 +343,17 @@ s.setAttribute('data-timestamp', +new Date());
 })();
 </script>
 <noscript>Please enable JavaScript to view the <a href="https://disqus.com/?ref_noscript">comments powered by Disqus.</a></noscript>
+<style media="screen">
+  ny_comment {
+    .tab-conversation.active>a span {color:red !important;}
+    .tab-conversation.active>a.publisher-nav-color span{color:red !important;}
+    .active .nav-tab>a:after, .tab-conversation.active>a:after {color:red !important;}
+    .comment__footer .author, .comment__header .author {color:red !important;}
+    .comment__footer .vote-down:hover, .comment__footer a:hover, .comment__header .vote-down:hover, .comment__header a:hover {color:red !important;}
+
+  }
+
+</style>
 
 </div>
 
