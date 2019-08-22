@@ -5,8 +5,8 @@
     <description>HI welcome my blog.</description>
     <link>http://jjeonn.github.io/</link>
     <atom:link href="http://jjeonn.github.io/feed.xml" rel="self" type="application/rss+xml"/>
-    <pubDate>Thu, 22 Aug 2019 10:14:48 +0900</pubDate>
-    <lastBuildDate>Thu, 22 Aug 2019 10:14:48 +0900</lastBuildDate>
+    <pubDate>Thu, 22 Aug 2019 17:39:29 +0900</pubDate>
+    <lastBuildDate>Thu, 22 Aug 2019 17:39:29 +0900</lastBuildDate>
     <generator>Jekyll v3.2.1</generator>
     
       <item>
@@ -142,8 +142,8 @@ comments : true
 
 </description>
         <pubDate>Fri, 16 Aug 2019 00:00:00 +0900</pubDate>
-        <link>http://jjeonn.github.io/git/2019/08/16/comment.html</link>
-        <guid isPermaLink="true">http://jjeonn.github.io/git/2019/08/16/comment.html</guid>
+        <link>http://jjeonn.github.io/git/comment/</link>
+        <guid isPermaLink="true">http://jjeonn.github.io/git/comment/</guid>
         
         <category>git</category>
         
@@ -188,8 +188,8 @@ comments : true
 &lt;/section&gt;
 </description>
         <pubDate>Wed, 07 Aug 2019 00:00:00 +0900</pubDate>
-        <link>http://jjeonn.github.io/portfolio/2019/08/07/Demo.html</link>
-        <guid isPermaLink="true">http://jjeonn.github.io/portfolio/2019/08/07/Demo.html</guid>
+        <link>http://jjeonn.github.io/portfolio/Demo/</link>
+        <guid isPermaLink="true">http://jjeonn.github.io/portfolio/Demo/</guid>
         
         <category>portfolio</category>
         
@@ -313,8 +313,8 @@ comments : true
 &lt;/table&gt;
 </description>
         <pubDate>Sat, 13 Jul 2019 23:43:59 +0900</pubDate>
-        <link>http://jjeonn.github.io/git/2019/07/13/markdown02.html</link>
-        <guid isPermaLink="true">http://jjeonn.github.io/git/2019/07/13/markdown02.html</guid>
+        <link>http://jjeonn.github.io/git/markdown02/</link>
+        <guid isPermaLink="true">http://jjeonn.github.io/git/markdown02/</guid>
         
         <category>markdown</category>
         
@@ -521,8 +521,8 @@ end code block.&lt;/p&gt;
 &lt;p&gt;&lt;code class=&quot;highlighter-rouge&quot;&gt;This is a normal paragraph: This is a code block. end code block.&lt;/code&gt;&lt;/p&gt;
 </description>
         <pubDate>Wed, 10 Jul 2019 23:43:59 +0900</pubDate>
-        <link>http://jjeonn.github.io/git/2019/07/10/markdown01.html</link>
-        <guid isPermaLink="true">http://jjeonn.github.io/git/2019/07/10/markdown01.html</guid>
+        <link>http://jjeonn.github.io/git/markdown01/</link>
+        <guid isPermaLink="true">http://jjeonn.github.io/git/markdown01/</guid>
         
         <category>markdown</category>
         
@@ -568,8 +568,8 @@ end code block.&lt;/p&gt;
 &lt;/section&gt;
 </description>
         <pubDate>Thu, 30 May 2019 00:00:00 +0900</pubDate>
-        <link>http://jjeonn.github.io/portfolio/2019/05/30/Exabit.html</link>
-        <guid isPermaLink="true">http://jjeonn.github.io/portfolio/2019/05/30/Exabit.html</guid>
+        <link>http://jjeonn.github.io/portfolio/Exabit/</link>
+        <guid isPermaLink="true">http://jjeonn.github.io/portfolio/Exabit/</guid>
         
         <category>portfolio</category>
         
@@ -609,8 +609,8 @@ end code block.&lt;/p&gt;
 &lt;/section&gt;
 </description>
         <pubDate>Wed, 30 May 2018 00:00:00 +0900</pubDate>
-        <link>http://jjeonn.github.io/portfolio/2018/05/30/Funding-Shop.html</link>
-        <guid isPermaLink="true">http://jjeonn.github.io/portfolio/2018/05/30/Funding-Shop.html</guid>
+        <link>http://jjeonn.github.io/portfolio/Funding-Shop/</link>
+        <guid isPermaLink="true">http://jjeonn.github.io/portfolio/Funding-Shop/</guid>
         
         <category>portfolio</category>
         
@@ -650,8 +650,8 @@ end code block.&lt;/p&gt;
 &lt;/section&gt;
 </description>
         <pubDate>Wed, 30 Aug 2017 00:00:00 +0900</pubDate>
-        <link>http://jjeonn.github.io/portfolio/2017/08/30/Biz.html</link>
-        <guid isPermaLink="true">http://jjeonn.github.io/portfolio/2017/08/30/Biz.html</guid>
+        <link>http://jjeonn.github.io/portfolio/Biz/</link>
+        <guid isPermaLink="true">http://jjeonn.github.io/portfolio/Biz/</guid>
         
         <category>portfolio</category>
         
@@ -702,8 +702,8 @@ end code block.&lt;/p&gt;
 &lt;/section&gt;
 </description>
         <pubDate>Fri, 18 Aug 2017 00:00:00 +0900</pubDate>
-        <link>http://jjeonn.github.io/portfolio/2017/08/18/Conerstone.html</link>
-        <guid isPermaLink="true">http://jjeonn.github.io/portfolio/2017/08/18/Conerstone.html</guid>
+        <link>http://jjeonn.github.io/portfolio/Conerstone/</link>
+        <guid isPermaLink="true">http://jjeonn.github.io/portfolio/Conerstone/</guid>
         
         <category>portfolio</category>
         
@@ -743,8 +743,8 @@ end code block.&lt;/p&gt;
 &lt;/section&gt;
 </description>
         <pubDate>Tue, 30 Aug 2016 00:00:00 +0900</pubDate>
-        <link>http://jjeonn.github.io/portfolio/2016/08/30/Noble.html</link>
-        <guid isPermaLink="true">http://jjeonn.github.io/portfolio/2016/08/30/Noble.html</guid>
+        <link>http://jjeonn.github.io/portfolio/Noble/</link>
+        <guid isPermaLink="true">http://jjeonn.github.io/portfolio/Noble/</guid>
         
         <category>portfolio</category>
         
@@ -789,8 +789,8 @@ end code block.&lt;/p&gt;
 [![더리얼티](/assets/01.jpg)](http://realty.intowinsoft.com){: target=&quot;_blank&quot;} --&gt;
 </description>
         <pubDate>Thu, 30 Jun 2016 00:00:00 +0900</pubDate>
-        <link>http://jjeonn.github.io/portfolio/2016/06/30/THE-REALTY.html</link>
-        <guid isPermaLink="true">http://jjeonn.github.io/portfolio/2016/06/30/THE-REALTY.html</guid>
+        <link>http://jjeonn.github.io/portfolio/THE-REALTY/</link>
+        <guid isPermaLink="true">http://jjeonn.github.io/portfolio/THE-REALTY/</guid>
         
         <category>portfolio</category>
         
