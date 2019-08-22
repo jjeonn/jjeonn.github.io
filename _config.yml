@@ -46,7 +46,7 @@ jekyll-archives:
 discus-identifier: nayoung-github-io # add your discus identifier
 
 # Google analytics
-
+analytics:
  ga_tracking_id: "UA-146165157-1"
 
 # Category descriptions (for archive pages)
