@@ -3,7 +3,7 @@ layout: post
 title:  "마크다운(markdown) 정리 (1)"
 date:   2019-07-10 14:43:59
 author: Nayoung
-categories: GIT
+categories: [GIT]
 tags: markdown git gitblog
 comments : true
 ---
