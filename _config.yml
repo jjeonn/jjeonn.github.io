@@ -51,13 +51,16 @@ analytics:
 
 # Category descriptions (for archive pages)
 descriptions:
-  - cat: jekyll
-    desc: "Posts describing Jekyll setup techniques."
+#  - cat: jekyll
+#    desc: "Posts describing Jekyll setup techniques."
 
   - cat: git
     desc: "Posts describing git setup techniques"
 
   - cat: portfolio
+    desc: ""
+
+  - cat: Git
     desc: ""
 
 # Social icons and sharing options
