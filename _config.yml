@@ -27,7 +27,7 @@ logo: "/assets/logo.png"
 markdown: kramdown
 paginate: 5 #첫 페이지에 보여줄 최근 게시물 수
 paginate_path: "/page:num/"
-inter_post_navigation: false
+inter_post_navigation: true #false
 highlightjs_theme: "monokai-sublime"
 
 # Archive settings (see https://github.com/jekyll/jekyll-archives/)
@@ -54,13 +54,10 @@ descriptions:
 #  - cat: jekyll
 #    desc: "Posts describing Jekyll setup techniques."
 
-  - cat: git
-    desc: "Posts describing git setup techniques"
+  - cat: GIT
+    desc: "" #"Posts describing git setup techniques"
 
   - cat: portfolio
-    desc: ""
-
-  - cat: Git
     desc: ""
 
 # Social icons and sharing options
