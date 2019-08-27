@@ -1,114 +1,114 @@
----
-layout: post
-title:  "Gitblog 댓글(Comment) 적용하기"
-date:   2019-08-16
-author: Nayoung
-categories: [GIT]
-tags:  git gitblog comment
-comments : true
----
-
-## 디스커스(Disqus)를 이용해 블로그에 댓글기능 추가하기
-
-현 블로그에 적용된 댓글 서비스는 [디스커스(Disqus)](https://disqus.com)에서 제공하는 댓글 기능을 사용하고 있다.
-사용한 jekyll blog Skin에 따라 미리 적용 방법을 만들어 놓은Skin도 있지만 모든 사용자가 적용 할 수 있는 방법을 사용하려 한다:)
-
-------------------------------
-**Disqus**는 네트워크 플랫폼을 사용하는 웹 사이트 및 온라인 커뮤니티를위한 전세계 블로그 의견 호스팅 서비스다.
-
-------------------------------
-
-## 1.Disqus 계정 생성
-> [disqus.com](https://disqus.com)에서 회원가입하기
-> 메인 하단이나 header 오른쪽에 GET STARTED를 눌러 회원가입을 한다.
-
-![comment설명-회원가입](/assets/post_img/comment01.png)
-
-
-> 두 네모 박스중에 아래 I want to install Disqus on my site(내 사이트에 Disqus를 설치하고 싶다.) 를 눌러 사이트를 만들어 줍니다.
-
-![comment설명-회원가입](/assets/post_img/comment02.png)
-
-> Create a new site 라는 화면이 뜬다.
-
-> Website Name을 입력하라고 나오는데 대부분의 사람들은 알아보기 쉽게 자신의 Git도메인과 같은걸 사용하는 편이다!
-
-> 중요하지는 않지만 Category는 사용 목적에 따라 선택해 주고, Language는 Korean이 없어서English로 했다.
-
-![comment설명-회원가입](/assets/post_img/comment02-1.png)
-
-> Select a plan이라는 페이지가 나오는데 이용료를 내고 이런저런 기능을 사용할거냐고 물어보는 페이지다. Basic한 기능이 필요하기 때문에 아래 Basic을 Free로 이용하는 Subscribe Now를 눌러준다.
-
-![comment설명](/assets/post_img/comment05.png)
-
-> What platform is your site on?(본인 사이트는 어떤 플랫폼인가?)를 묻는 질문이니 나는 Jekyll을 선택해 주었다.
-
-![comment설명](/assets/post_img/comment06.png)
-
-## 2.자신의 Git에 page 생성 후 include해준다.
-
-![comment설명](/assets/post_img/comment09.png)
-
-> Jekyll install instructions 페이지에서 **Universal Embed Code**를 누르면 Disqus를 사용하기 위한 코드가 나온다.
-
-![comment설명](/assets/post_img/comment10.png)
-> 안에 있는 코드를 복사해 해당 코드로 나의 깃 _include안에 disqus.html 파일을 생성해 준다.
-
-```
-
-<div id="disqus_thread"></div>
-<script>
-
-/**
-*  RECOMMENDED CONFIGURATION VARIABLES: EDIT AND UNCOMMENT THE SECTION BELOW TO INSERT DYNAMIC VALUES FROM YOUR PLATFORM OR CMS.
-*  LEARN WHY DEFINING THESE VARIABLES IS IMPORTANT: https://disqus.com/admin/universalcode/#configuration-variables*/
-/*
-var disqus_config = function () {
-this.page.url = PAGE_URL;  // Replace PAGE_URL with your page's canonical URL variable
-this.page.identifier = PAGE_IDENTIFIER; // Replace PAGE_IDENTIFIER with your page's unique identifier variable
-};
-*/
-(function() { // DON'T EDIT BELOW THIS LINE
-var d = document, s = d.createElement('script');
-s.src = 'https://nayoung-git-site-1.disqus.com/embed.js';
-s.setAttribute('data-timestamp', +new Date());
-(d.head || d.body).appendChild(s);
-})();
-</script>
-<noscript>Please enable JavaScript to view the <a href="https://disqus.com/?ref_noscript">comments powered by Disqus.</a></noscript>
-
-```
-
-> 댓글이 필요한 post layout에 disqus.html을 include해준다.
-
-~~~
-
-{ % if page.comments %}
-<div id="post-disqus" class="container">
-{ % include disqus.html %}
-</div>
-{ % endif %}
-
-~~~
-
-> 사용하고 싶은 post에 comments : true 넣어 댓글을 활성화 해 준다.
-
-```
----
-layout: post
-title:  "Gitblog 댓글(Comment) 적용하기"
-date:   2019-08-16
-author: Nayoung
-categories: [GIT]
-tags:  git gitblog comment
-comments : true
----
-```
-
-## 3.다시 사이트로 돌아와 완성해준다!
-> Website Name, Website URL을 필수로 Complete Setup을 눌러 준다.
-
-![comment설명](/assets/post_img/comment07.png)
-
-> Setup Complete! 완성!
-
+---
+layout: post
+title:  "Gitblog 댓글(Comment) 적용하기"
+date:   2019-08-16
+author: Nayoung
+categories: [GIT]
+tags:  git gitblog comment
+comments : true
+---
+
+## 디스커스(Disqus)를 이용해 블로그에 댓글기능 추가하기
+
+현 블로그에 적용된 댓글 서비스는 [디스커스(Disqus)](https://disqus.com)에서 제공하는 댓글 기능을 사용하고 있다.
+사용한 jekyll blog Skin에 따라 미리 적용 방법을 만들어 놓은Skin도 있지만 모든 사용자가 적용 할 수 있는 방법을 사용하려 한다:)
+
+------------------------------
+**Disqus**는 네트워크 플랫폼을 사용하는 웹 사이트 및 온라인 커뮤니티를위한 전세계 블로그 의견 호스팅 서비스다.
+
+------------------------------
+
+## 1.Disqus 계정 생성
+> [disqus.com](https://disqus.com)에서 회원가입하기
+> 메인 하단이나 header 오른쪽에 GET STARTED를 눌러 회원가입을 한다.
+
+![comment설명-회원가입](/assets/post_img/comment01.png)
+
+
+> 두 네모 박스중에 아래 I want to install Disqus on my site(내 사이트에 Disqus를 설치하고 싶다.) 를 눌러 사이트를 만들어 줍니다.
+
+![comment설명-회원가입](/assets/post_img/comment02.png)
+
+> Create a new site 라는 화면이 뜬다.
+
+> Website Name을 입력하라고 나오는데 대부분의 사람들은 알아보기 쉽게 자신의 Git도메인과 같은걸 사용하는 편이다!
+
+> 중요하지는 않지만 Category는 사용 목적에 따라 선택해 주고, Language는 Korean이 없어서English로 했다.
+
+![comment설명-회원가입](/assets/post_img/comment02-1.png)
+
+> Select a plan이라는 페이지가 나오는데 이용료를 내고 이런저런 기능을 사용할거냐고 물어보는 페이지다. Basic한 기능이 필요하기 때문에 아래 Basic을 Free로 이용하는 Subscribe Now를 눌러준다.
+
+![comment설명](/assets/post_img/comment05.png)
+
+> What platform is your site on?(본인 사이트는 어떤 플랫폼인가?)를 묻는 질문이니 나는 Jekyll을 선택해 주었다.
+
+![comment설명](/assets/post_img/comment06.png)
+
+## 2.자신의 Git에 page 생성 후 include해준다.
+
+![comment설명](/assets/post_img/comment09.png)
+
+> Jekyll install instructions 페이지에서 **Universal Embed Code**를 누르면 Disqus를 사용하기 위한 코드가 나온다.
+
+![comment설명](/assets/post_img/comment10.png)
+> 안에 있는 코드를 복사해 해당 코드로 나의 깃 _include안에 disqus.html 파일을 생성해 준다.
+
+```
+
+<div id="disqus_thread"></div>
+<script>
+
+/**
+*  RECOMMENDED CONFIGURATION VARIABLES: EDIT AND UNCOMMENT THE SECTION BELOW TO INSERT DYNAMIC VALUES FROM YOUR PLATFORM OR CMS.
+*  LEARN WHY DEFINING THESE VARIABLES IS IMPORTANT: https://disqus.com/admin/universalcode/#configuration-variables*/
+/*
+var disqus_config = function () {
+this.page.url = PAGE_URL;  // Replace PAGE_URL with your page's canonical URL variable
+this.page.identifier = PAGE_IDENTIFIER; // Replace PAGE_IDENTIFIER with your page's unique identifier variable
+};
+*/
+(function() { // DON'T EDIT BELOW THIS LINE
+var d = document, s = d.createElement('script');
+s.src = 'https://nayoung-git-site-1.disqus.com/embed.js';
+s.setAttribute('data-timestamp', +new Date());
+(d.head || d.body).appendChild(s);
+})();
+</script>
+<noscript>Please enable JavaScript to view the <a href="https://disqus.com/?ref_noscript">comments powered by Disqus.</a></noscript>
+
+```
+
+> 댓글이 필요한 post layout에 disqus.html을 include해준다.
+
+~~~
+
+{ % if page.comments %}
+<div id="post-disqus" class="container">
+{ % include disqus.html %}
+</div>
+{ % endif %}
+
+~~~
+
+> 사용하고 싶은 post에 comments : true 넣어 댓글을 활성화 해 준다.
+
+```
+---
+layout: post
+title:  "Gitblog 댓글(Comment) 적용하기"
+date:   2019-08-16
+author: Nayoung
+categories: [GIT]
+tags:  git gitblog comment
+comments : true
+---
+```
+
+## 3.다시 사이트로 돌아와 완성해준다!
+> Website Name, Website URL을 필수로 Complete Setup을 눌러 준다.
+
+![comment설명](/assets/post_img/comment07.png)
+
+> Setup Complete! 완성!
+

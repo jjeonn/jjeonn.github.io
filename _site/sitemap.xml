@@ -1,6 +1,10 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <urlset xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.sitemaps.org/schemas/sitemap/0.9 http://www.sitemaps.org/schemas/sitemap/0.9/sitemap.xsd" xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
 <url>
+<loc>http://jjeonn.github.io/git/2019/08/27/google.html</loc>
+<lastmod>2019-08-27T00:00:00+09:00</lastmod>
+</url>
+<url>
 <loc>http://jjeonn.github.io/git/2019/08/16/comment.html</loc>
 <lastmod>2019-08-16T00:00:00+09:00</lastmod>
 </url>
@@ -54,6 +58,9 @@
 </url>
 <url>
 <loc>http://jjeonn.github.io/page2/</loc>
+</url>
+<url>
+<loc>http://jjeonn.github.io/page3/</loc>
 </url>
 <url>
 <loc>http://jjeonn.github.io/googleabc5158e9ebde13a.html</loc>

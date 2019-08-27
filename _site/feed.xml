@@ -5,26 +5,57 @@
     <description>HI welcome my blog.</description>
     <link>http://jjeonn.github.io/</link>
     <atom:link href="http://jjeonn.github.io/feed.xml" rel="self" type="application/rss+xml"/>
-    <pubDate>Fri, 23 Aug 2019 18:23:17 +0900</pubDate>
-    <lastBuildDate>Fri, 23 Aug 2019 18:23:17 +0900</lastBuildDate>
+    <pubDate>Tue, 27 Aug 2019 18:23:57 +0900</pubDate>
+    <lastBuildDate>Tue, 27 Aug 2019 18:23:57 +0900</lastBuildDate>
     <generator>Jekyll v3.2.1</generator>
+    
+      <item>
+        <title>Google 검색엔진/애널리틱스 등록하기</title>
+        <description>&lt;h2 id=&quot;google-analytice--google-search-console&quot;&gt;구글 애널리틱스(Google Analytice)와 검색엔진 (Google Search Console)&lt;/h2&gt;
+
+&lt;p&gt;나의 블로그가 검색엔진에 검색되도록 등록해주는 기능들을 찾아보니 구글에 두가지의 이용할 수 있는 기능이 나왔다!&lt;/p&gt;
+&lt;blockquote&gt;
+  &lt;p&gt;**구글 애널리틱스(Google Analytice)&lt;/p&gt;
+
+&lt;/blockquote&gt;
+</description>
+        <pubDate>Tue, 27 Aug 2019 00:00:00 +0900</pubDate>
+        <link>http://jjeonn.github.io/git/2019/08/27/google.html</link>
+        <guid isPermaLink="true">http://jjeonn.github.io/git/2019/08/27/google.html</guid>
+        
+        <category>git</category>
+        
+        <category>gitblog</category>
+        
+        <category>comment</category>
+        
+        
+        <category>GIT</category>
+        
+      </item>
     
       <item>
         <title>Gitblog 댓글(Comment) 적용하기</title>
         <description>&lt;h2 id=&quot;disqus----&quot;&gt;디스커스(Disqus)를 이용해 블로그에 댓글기능 추가하기&lt;/h2&gt;
 
-&lt;p&gt;현 블로그에 적용된 댓글 서비스는 &lt;a href=&quot;https://disqus.com&quot;&gt;디스커스(Disqus)&lt;/a&gt;에서 제공하는 댓글 기능을 사용하고 있다.
-사용한 jekyll blog Skin에 따라 미리 적용 방법을 만들어 놓은Skin도 있지만 모든 사용자가 적용 할 수 있는 방법을 사용하려 한다:)&lt;/p&gt;
+&lt;p&gt;현 블로그에 적용된 댓글 서비스는 &lt;a href=&quot;https://disqus.com&quot;&gt;디스커스(Disqus)&lt;/a&gt;에서 제공하는 댓글 기능을 사용하고 있다.&lt;/p&gt;
+
+&lt;p&gt;사용한 jekyll blog Skin에 따라 미리 적용 방법을 만들어 놓은Skin도 있지만 모든 사용자가 적용 할 수 있는 방법을 사용하려 한다:)&lt;/p&gt;
 
 &lt;hr /&gt;
+
 &lt;p&gt;&lt;strong&gt;Disqus&lt;/strong&gt;는 네트워크 플랫폼을 사용하는 웹 사이트 및 온라인 커뮤니티를위한 전세계 블로그 의견 호스팅 서비스다.&lt;/p&gt;
 
 &lt;hr /&gt;
 
 &lt;h2 id=&quot;disqus--&quot;&gt;1.Disqus 계정 생성&lt;/h2&gt;
+
 &lt;blockquote&gt;
-  &lt;p&gt;&lt;a href=&quot;https://disqus.com&quot;&gt;disqus.com&lt;/a&gt;에서 회원가입하기
-메인 하단이나 header 오른쪽에 GET STARTED를 눌러 회원가입을 한다.&lt;/p&gt;
+  &lt;p&gt;&lt;a href=&quot;https://disqus.com&quot;&gt;disqus.com&lt;/a&gt;에서 회원가입하기&lt;/p&gt;
+&lt;/blockquote&gt;
+
+&lt;blockquote&gt;
+  &lt;p&gt;메인 하단이나 header 오른쪽에 GET STARTED를 눌러 회원가입을 한다.&lt;/p&gt;
 &lt;/blockquote&gt;
 
 &lt;p&gt;&lt;img src=&quot;/assets/post_img/comment01.png&quot; alt=&quot;comment설명-회원가입&quot; /&gt;&lt;/p&gt;
@@ -70,31 +101,55 @@
 &lt;/blockquote&gt;
 
 &lt;p&gt;&lt;img src=&quot;/assets/post_img/comment10.png&quot; alt=&quot;comment설명&quot; /&gt;&lt;/p&gt;
+
 &lt;blockquote&gt;
   &lt;p&gt;안에 있는 코드를 복사해 해당 코드로 나의 깃 _include안에 disqus.html 파일을 생성해 준다.&lt;/p&gt;
 &lt;/blockquote&gt;
 
 &lt;div class=&quot;highlighter-rouge&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;
+
+
 &amp;lt;div id=&quot;disqus_thread&quot;&amp;gt;&amp;lt;/div&amp;gt;
+
 &amp;lt;script&amp;gt;
 
+
+
 /**
+
 *  RECOMMENDED CONFIGURATION VARIABLES: EDIT AND UNCOMMENT THE SECTION BELOW TO INSERT DYNAMIC VALUES FROM YOUR PLATFORM OR CMS.
+
 *  LEARN WHY DEFINING THESE VARIABLES IS IMPORTANT: https://disqus.com/admin/universalcode/#configuration-variables*/
+
 /*
+
 var disqus_config = function () {
+
 this.page.url = PAGE_URL;  // Replace PAGE_URL with your page's canonical URL variable
+
 this.page.identifier = PAGE_IDENTIFIER; // Replace PAGE_IDENTIFIER with your page's unique identifier variable
+
 };
+
 */
+
 (function() { // DON'T EDIT BELOW THIS LINE
+
 var d = document, s = d.createElement('script');
+
 s.src = 'https://nayoung-git-site-1.disqus.com/embed.js';
+
 s.setAttribute('data-timestamp', +new Date());
+
 (d.head || d.body).appendChild(s);
+
 })();
+
 &amp;lt;/script&amp;gt;
+
 &amp;lt;noscript&amp;gt;Please enable JavaScript to view the &amp;lt;a href=&quot;https://disqus.com/?ref_noscript&quot;&amp;gt;comments powered by Disqus.&amp;lt;/a&amp;gt;&amp;lt;/noscript&amp;gt;
+
+
 
 &lt;/code&gt;&lt;/pre&gt;
 &lt;/div&gt;
@@ -104,11 +159,19 @@ s.setAttribute('data-timestamp', +new Date());
 &lt;/blockquote&gt;
 
 &lt;div class=&quot;highlighter-rouge&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;&lt;span class=&quot;w&quot;&gt;
+
+
 &lt;/span&gt;&lt;span class=&quot;p&quot;&gt;{&lt;/span&gt;&lt;span class=&quot;w&quot;&gt; &lt;/span&gt;&lt;span class=&quot;err&quot;&gt;%&lt;/span&gt;&lt;span class=&quot;w&quot;&gt; &lt;/span&gt;&lt;span class=&quot;err&quot;&gt;if&lt;/span&gt;&lt;span class=&quot;w&quot;&gt; &lt;/span&gt;&lt;span class=&quot;err&quot;&gt;page.comments&lt;/span&gt;&lt;span class=&quot;w&quot;&gt; &lt;/span&gt;&lt;span class=&quot;err&quot;&gt;%&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;}&lt;/span&gt;&lt;span class=&quot;w&quot;&gt;
+
 &lt;/span&gt;&lt;span class=&quot;err&quot;&gt;&amp;lt;div&lt;/span&gt;&lt;span class=&quot;w&quot;&gt; &lt;/span&gt;&lt;span class=&quot;err&quot;&gt;id=&lt;/span&gt;&lt;span class=&quot;s2&quot;&gt;&quot;post-disqus&quot;&lt;/span&gt;&lt;span class=&quot;w&quot;&gt; &lt;/span&gt;&lt;span class=&quot;err&quot;&gt;class=&lt;/span&gt;&lt;span class=&quot;s2&quot;&gt;&quot;container&quot;&lt;/span&gt;&lt;span class=&quot;err&quot;&gt;&amp;gt;&lt;/span&gt;&lt;span class=&quot;w&quot;&gt;
+
 &lt;/span&gt;&lt;span class=&quot;p&quot;&gt;{&lt;/span&gt;&lt;span class=&quot;w&quot;&gt; &lt;/span&gt;&lt;span class=&quot;err&quot;&gt;%&lt;/span&gt;&lt;span class=&quot;w&quot;&gt; &lt;/span&gt;&lt;span class=&quot;err&quot;&gt;include&lt;/span&gt;&lt;span class=&quot;w&quot;&gt; &lt;/span&gt;&lt;span class=&quot;err&quot;&gt;disqus.html&lt;/span&gt;&lt;span class=&quot;w&quot;&gt; &lt;/span&gt;&lt;span class=&quot;err&quot;&gt;%&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;}&lt;/span&gt;&lt;span class=&quot;w&quot;&gt;
+
 &lt;/span&gt;&lt;span class=&quot;err&quot;&gt;&amp;lt;/div&amp;gt;&lt;/span&gt;&lt;span class=&quot;w&quot;&gt;
+
 &lt;/span&gt;&lt;span class=&quot;p&quot;&gt;{&lt;/span&gt;&lt;span class=&quot;w&quot;&gt; &lt;/span&gt;&lt;span class=&quot;err&quot;&gt;%&lt;/span&gt;&lt;span class=&quot;w&quot;&gt; &lt;/span&gt;&lt;span class=&quot;err&quot;&gt;endif&lt;/span&gt;&lt;span class=&quot;w&quot;&gt; &lt;/span&gt;&lt;span class=&quot;err&quot;&gt;%&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;}&lt;/span&gt;&lt;span class=&quot;w&quot;&gt;
+
+
 
 &lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;
 &lt;/div&gt;
@@ -117,19 +180,30 @@ s.setAttribute('data-timestamp', +new Date());
   &lt;p&gt;사용하고 싶은 post에 comments : true 넣어 댓글을 활성화 해 준다.&lt;/p&gt;
 &lt;/blockquote&gt;
 
-&lt;div class=&quot;highlighter-rouge&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;---
-layout: post
-title:  &quot;Gitblog 댓글(Comment) 적용하기&quot;
-date:   2019-08-16
-author: Nayoung
-categories: [GIT]
-tags:  git gitblog comment
-comments : true
+&lt;div class=&quot;highlighter-rouge&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;
 ---
+
+layout: post
+
+title:  &quot;Gitblog 댓글(Comment) 적용하기&quot;
+
+date:   2019-08-16
+
+author: Nayoung
+
+categories: [GIT]
+
+tags:  git gitblog comment
+
+comments : true
+
+---
+
 &lt;/code&gt;&lt;/pre&gt;
 &lt;/div&gt;
 
 &lt;h2 id=&quot;section&quot;&gt;3.다시 사이트로 돌아와 완성해준다!&lt;/h2&gt;
+
 &lt;blockquote&gt;
   &lt;p&gt;Website Name, Website URL을 필수로 Complete Setup을 눌러 준다.&lt;/p&gt;
 &lt;/blockquote&gt;
@@ -745,52 +819,6 @@ end code block.&lt;/p&gt;
         <pubDate>Tue, 30 Aug 2016 00:00:00 +0900</pubDate>
         <link>http://jjeonn.github.io/portfolio/2016/08/30/Noble.html</link>
         <guid isPermaLink="true">http://jjeonn.github.io/portfolio/2016/08/30/Noble.html</guid>
-        
-        <category>portfolio</category>
-        
-        
-        <category>portfolio</category>
-        
-      </item>
-    
-      <item>
-        <title>[THE REALTY]</title>
-        <description>&lt;section class=&quot;pofo_con&quot;&gt;
-	&lt;article&gt;
-		&lt;a href=&quot;http://realty.intowinsoft.com&quot; target=&quot;_blank&quot;&gt;
-			&lt;img src=&quot;/assets/portfolio_01.jpg&quot; /&gt;
-		&lt;/a&gt;
-	&lt;/article&gt;
-	&lt;article class=&quot;pofo_left&quot;&gt;
-		&lt;h4&gt;
-			&lt;strong&gt;부동산중개&lt;/strong&gt;
-			&lt;span&gt;2016.06.23 ~ 2016.06.30&lt;/span&gt;
-		&lt;/h4&gt;
-
-		&lt;div&gt;
-			&lt;p class=&quot;pofo_content&quot;&gt;첫회사 첫직장의 첫 프로젝트!&lt;/p&gt;
-			&lt;p class=&quot;pofo_content&quot;&gt;혼자하는 단순한 코딩업무에 간단한 제이쿼리가 들어간 사이트 였지만 심플한 내용에 첫 프로젝트&lt;/p&gt;
-		&lt;/div&gt;
-		&lt;ul class=&quot;pofo_ul&quot;&gt;
-			&lt;li&gt;HTML&lt;/li&gt;
-			&lt;li&gt;CSS&lt;/li&gt;
-			&lt;li&gt;JQURY&lt;/li&gt;
-		&lt;/ul&gt;		
-		&lt;div&gt;
-			&lt;p&gt;기여도&lt;/p&gt; &lt;span&gt;100%&lt;/span&gt;
-		&lt;/div&gt;
-	&lt;/article&gt;
-&lt;/section&gt;
-
-&lt;!-- &lt;a href=&quot;http://realty.intowinsoft.com&quot;&gt;
-	&lt;img src=&quot;https://jjeonn.github.io/assets/portfolio01.png&quot; style=&quot;width:50%;&quot;&gt;
-&lt;/a&gt;
-[![더리얼티](/assets/portfolio01.png)](http://realty.intowinsoft.com){: target=&quot;_blank&quot;}
-[![더리얼티](/assets/01.jpg)](http://realty.intowinsoft.com){: target=&quot;_blank&quot;} --&gt;
-</description>
-        <pubDate>Thu, 30 Jun 2016 00:00:00 +0900</pubDate>
-        <link>http://jjeonn.github.io/portfolio/2016/06/30/THE-REALTY.html</link>
-        <guid isPermaLink="true">http://jjeonn.github.io/portfolio/2016/06/30/THE-REALTY.html</guid>
         
         <category>portfolio</category>
         

@@ -1,0 +1,15 @@
+---
+layout: post
+title:  "Google 검색엔진/애널리틱스 등록하기"
+date:   2019-08-27
+author: Nayoung
+categories: [GIT]
+tags:  git gitblog comment
+comments : true
+---
+
+## 구글 애널리틱스(Google Analytice)와 검색엔진 (Google Search Console)
+
+나의 블로그가 검색엔진에 검색되도록 등록해주는 기능들을 찾아보니 구글에 두가지의 이용할 수 있는 기능이 나왔다!
+> **구글 애널리틱스(Google Analytice)
+>
