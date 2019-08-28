@@ -5,34 +5,9 @@
     <description>HI welcome my blog.</description>
     <link>http://jjeonn.github.io/</link>
     <atom:link href="http://jjeonn.github.io/feed.xml" rel="self" type="application/rss+xml"/>
-    <pubDate>Tue, 27 Aug 2019 18:23:57 +0900</pubDate>
-    <lastBuildDate>Tue, 27 Aug 2019 18:23:57 +0900</lastBuildDate>
+    <pubDate>Wed, 28 Aug 2019 13:27:34 +0900</pubDate>
+    <lastBuildDate>Wed, 28 Aug 2019 13:27:34 +0900</lastBuildDate>
     <generator>Jekyll v3.2.1</generator>
-    
-      <item>
-        <title>Google 검색엔진/애널리틱스 등록하기</title>
-        <description>&lt;h2 id=&quot;google-analytice--google-search-console&quot;&gt;구글 애널리틱스(Google Analytice)와 검색엔진 (Google Search Console)&lt;/h2&gt;
-
-&lt;p&gt;나의 블로그가 검색엔진에 검색되도록 등록해주는 기능들을 찾아보니 구글에 두가지의 이용할 수 있는 기능이 나왔다!&lt;/p&gt;
-&lt;blockquote&gt;
-  &lt;p&gt;**구글 애널리틱스(Google Analytice)&lt;/p&gt;
-
-&lt;/blockquote&gt;
-</description>
-        <pubDate>Tue, 27 Aug 2019 00:00:00 +0900</pubDate>
-        <link>http://jjeonn.github.io/git/2019/08/27/google.html</link>
-        <guid isPermaLink="true">http://jjeonn.github.io/git/2019/08/27/google.html</guid>
-        
-        <category>git</category>
-        
-        <category>gitblog</category>
-        
-        <category>comment</category>
-        
-        
-        <category>GIT</category>
-        
-      </item>
     
       <item>
         <title>Gitblog 댓글(Comment) 적용하기</title>
@@ -819,6 +794,52 @@ end code block.&lt;/p&gt;
         <pubDate>Tue, 30 Aug 2016 00:00:00 +0900</pubDate>
         <link>http://jjeonn.github.io/portfolio/2016/08/30/Noble.html</link>
         <guid isPermaLink="true">http://jjeonn.github.io/portfolio/2016/08/30/Noble.html</guid>
+        
+        <category>portfolio</category>
+        
+        
+        <category>portfolio</category>
+        
+      </item>
+    
+      <item>
+        <title>[THE REALTY]</title>
+        <description>&lt;section class=&quot;pofo_con&quot;&gt;
+	&lt;article&gt;
+		&lt;a href=&quot;http://realty.intowinsoft.com&quot; target=&quot;_blank&quot;&gt;
+			&lt;img src=&quot;/assets/portfolio_01.jpg&quot; /&gt;
+		&lt;/a&gt;
+	&lt;/article&gt;
+	&lt;article class=&quot;pofo_left&quot;&gt;
+		&lt;h4&gt;
+			&lt;strong&gt;부동산중개&lt;/strong&gt;
+			&lt;span&gt;2016.06.23 ~ 2016.06.30&lt;/span&gt;
+		&lt;/h4&gt;
+
+		&lt;div&gt;
+			&lt;p class=&quot;pofo_content&quot;&gt;첫회사 첫직장의 첫 프로젝트!&lt;/p&gt;
+			&lt;p class=&quot;pofo_content&quot;&gt;혼자하는 단순한 코딩업무에 간단한 제이쿼리가 들어간 사이트 였지만 심플한 내용에 첫 프로젝트&lt;/p&gt;
+		&lt;/div&gt;
+		&lt;ul class=&quot;pofo_ul&quot;&gt;
+			&lt;li&gt;HTML&lt;/li&gt;
+			&lt;li&gt;CSS&lt;/li&gt;
+			&lt;li&gt;JQURY&lt;/li&gt;
+		&lt;/ul&gt;		
+		&lt;div&gt;
+			&lt;p&gt;기여도&lt;/p&gt; &lt;span&gt;100%&lt;/span&gt;
+		&lt;/div&gt;
+	&lt;/article&gt;
+&lt;/section&gt;
+
+&lt;!-- &lt;a href=&quot;http://realty.intowinsoft.com&quot;&gt;
+	&lt;img src=&quot;https://jjeonn.github.io/assets/portfolio01.png&quot; style=&quot;width:50%;&quot;&gt;
+&lt;/a&gt;
+[![더리얼티](/assets/portfolio01.png)](http://realty.intowinsoft.com){: target=&quot;_blank&quot;}
+[![더리얼티](/assets/01.jpg)](http://realty.intowinsoft.com){: target=&quot;_blank&quot;} --&gt;
+</description>
+        <pubDate>Thu, 30 Jun 2016 00:00:00 +0900</pubDate>
+        <link>http://jjeonn.github.io/portfolio/2016/06/30/THE-REALTY.html</link>
+        <guid isPermaLink="true">http://jjeonn.github.io/portfolio/2016/06/30/THE-REALTY.html</guid>
         
         <category>portfolio</category>
         
