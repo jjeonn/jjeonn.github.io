@@ -27,11 +27,11 @@ logo: "/assets/logo.png"
 markdown: kramdown
 paginate: 5 #첫 페이지에 보여줄 최근 게시물 수
 paginate_path: "/page:num/"
-<<<<<<< HEAD
+
 inter_post_navigation: false  #기존 false / true
-=======
+
 inter_post_navigation: true #기존 false
->>>>>>> 9ae4346f142337e08c1904bd12b292a9e17ce2f1
+
 highlightjs_theme: "monokai-sublime"
 
 # Archive settings (see https://github.com/jekyll/jekyll-archives/)
