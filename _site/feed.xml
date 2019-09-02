@@ -5,8 +5,8 @@
     <description>HI welcome my blog.</description>
     <link>http://jjeonn.github.io/</link>
     <atom:link href="http://jjeonn.github.io/feed.xml" rel="self" type="application/rss+xml"/>
-    <pubDate>Fri, 30 Aug 2019 17:39:32 +0900</pubDate>
-    <lastBuildDate>Fri, 30 Aug 2019 17:39:32 +0900</lastBuildDate>
+    <pubDate>Mon, 02 Sep 2019 16:51:17 +0900</pubDate>
+    <lastBuildDate>Mon, 02 Sep 2019 16:51:17 +0900</lastBuildDate>
     <generator>Jekyll v3.2.1</generator>
     
       <item>
@@ -47,7 +47,21 @@
 &lt;hr /&gt;
 &lt;p&gt;&lt;strong&gt;구글 서치 콘솔(Google Search Console) 등록하기&lt;/strong&gt;&lt;/p&gt;
 &lt;ol&gt;
-  &lt;li&gt;&lt;a href=&quot;https://search.google.com/search-console/about?hl=ko&quot;&gt;https://search.google.com/search-console/about?hl=ko&lt;/a&gt; 접속해 가입을 하고 로그인 해 준다.&lt;/li&gt;
+  &lt;li&gt;
+    &lt;p&gt;&lt;a href=&quot;https://search.google.com/search-console/about?hl=ko&quot;&gt;https://search.google.com/search-console/about?hl=ko&lt;/a&gt; 접속해 가입을 하고 로그인 해 준다.&lt;/p&gt;
+  &lt;/li&gt;
+  &lt;li&gt;로그인 이후 속성 유형을 선택해 준다.
+&lt;img src=&quot;/assets/post_img/search01.jpg&quot; alt=&quot;서치콘솔설명-도메인등록&quot; /&gt;&lt;/li&gt;
+  &lt;li&gt;github.io도메인을 사용한다면 ‘URL 접두어’로 선택해 준다.&lt;/li&gt;
+  &lt;li&gt;다음 단계로 넘어가 소유권을 증명해야 하기때문에, 다운받으라는 html을 다운받은 후 내 github최 상위폴더에 넣어준다.
+(최장 30분까지 인증 시간이 걸리니 조금 기다려 보자.)
+&lt;img src=&quot;/assets/post_img/search02.jpg&quot; alt=&quot;서치콘솔설명-완료&quot; /&gt;&lt;/li&gt;
+  &lt;li&gt;소유권인증이 완료 되면 이러한 페이지가 나온다. 아직은 구글 검색을 통해 웹사이트에 유입되는 현황이 확인되지 않기 때문에 최대 3일은 기다려 줘야 한다.&lt;/li&gt;
+  &lt;li&gt;빠른 검색 결과를 위해 구글의 크롤링(*크롤링:본인 웹사이트를 검색엔진이 읽어가는 작업)이 필요할것이다.
+지속적으로 구글 검색 엔진이 크롤링작업을 할 수 있도록 sitemap을 등록한다.
+&lt;img src=&quot;/assets/post_img/search03.jpg&quot; alt=&quot;서치콘솔설명-사이트맵등록&quot; /&gt;
+sitemap 파일은 github.io 블로그 기본 주소의 sitemap.xml로 생성된다.
+블로그 url 뒤에 sitemap.xml 만 줕여 주면 이 파일을 기반으로 웹사이트의 업데이트 된 정보를 지속적으로 크롤링 한다.&lt;/li&gt;
 &lt;/ol&gt;
 
 </description>

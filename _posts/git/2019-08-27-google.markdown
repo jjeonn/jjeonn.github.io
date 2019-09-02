@@ -38,6 +38,17 @@ comments : true
 **구글 서치 콘솔(Google Search Console) 등록하기**
 1. [https://search.google.com/search-console/about?hl=ko](https://search.google.com/search-console/about?hl=ko) 접속해 가입을 하고 로그인 해 준다.
 
-
+2. 로그인 이후 속성 유형을 선택해 준다.
+![서치콘솔설명-도메인등록](/assets/post_img/search01.jpg)
+3. github.io도메인을 사용한다면 'URL 접두어'로 선택해 준다.
+4. 다음 단계로 넘어가 소유권을 증명해야 하기때문에, 다운받으라는 html을 다운받은 후 내 github최 상위폴더에 넣어준다.
+(최장 30분까지 인증 시간이 걸리니 조금 기다려 보자.)
+![서치콘솔설명-완료](/assets/post_img/search02.jpg)
+5. 소유권인증이 완료 되면 이러한 페이지가 나온다. 아직은 구글 검색을 통해 웹사이트에 유입되는 현황이 확인되지 않기 때문에 최대 3일은 기다려 줘야 한다.
+6. 빠른 검색 결과를 위해 구글의 크롤링(*크롤링:본인 웹사이트를 검색엔진이 읽어가는 작업)이 필요할것이다.
+지속적으로 구글 검색 엔진이 크롤링작업을 할 수 있도록 sitemap을 등록한다.
+![서치콘솔설명-사이트맵등록](/assets/post_img/search03.jpg)
+sitemap 파일은 github.io 블로그 기본 주소의 sitemap.xml로 생성된다.
+블로그 url 뒤에 sitemap.xml 만 줕여 주면 이 파일을 기반으로 웹사이트의 업데이트 된 정보를 지속적으로 크롤링 한다.
 
 
