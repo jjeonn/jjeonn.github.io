@@ -63,6 +63,8 @@ descriptions:
   - cat: GIT
     desc: "" #"Posts describing git setup techniques"
 
+  - cat: Javascript
+    desc: "" #"Posts describing git setup techniques"
 
 
 # Social icons and sharing options
