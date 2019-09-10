@@ -28,9 +28,8 @@ markdown: kramdown
 paginate: 5 #첫 페이지에 보여줄 최근 게시물 수
 paginate_path: "/page:num/"
 
-inter_post_navigation: false  #기존 false / true
 
-inter_post_navigation: true #기존 false
+inter_post_navigation: false #기존 false
 
 highlightjs_theme: "monokai-sublime"
 
