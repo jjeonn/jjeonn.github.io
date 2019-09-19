@@ -5,9 +5,48 @@
     <description>HI welcome my blog.</description>
     <link>http://jjeonn.github.io/</link>
     <atom:link href="http://jjeonn.github.io/feed.xml" rel="self" type="application/rss+xml"/>
-    <pubDate>Mon, 16 Sep 2019 16:33:32 +0900</pubDate>
-    <lastBuildDate>Mon, 16 Sep 2019 16:33:32 +0900</lastBuildDate>
+    <pubDate>Thu, 19 Sep 2019 18:22:50 +0900</pubDate>
+    <lastBuildDate>Thu, 19 Sep 2019 18:22:50 +0900</lastBuildDate>
     <generator>Jekyll v3.2.1</generator>
+    
+      <item>
+        <title>자바스크립트(JavaScript) 기초</title>
+        <description>&lt;h3 id=&quot;javascript&quot;&gt;자바스크립트(JavaScript)&lt;/h3&gt;
+&lt;p&gt;&lt;span&gt;프론트엔드로 가는 발걸음을 한다면 필수 언어 JavaScript&lt;/span&gt;
+&lt;span class=&quot;dp-bl&quot;&gt; 하나하나 기록해보자!! &lt;/span&gt;&lt;/p&gt;
+
+&lt;hr /&gt;
+
+&lt;p&gt;&lt;strong&gt;자바스크립트(JavaScript)&lt;/strong&gt; 객체(object) 기반의 스크립트 프로그래밍 언어이다. 이 언어는 웹 브라우저 내에서 주로 사용하며, 다른 응용 프로그램의 내장 객체에도 접근할 수 있는 기능을 가지고 있다. 또한 Node.js와 같은 런타임 환경과 같이 서버 사이드 네트워크 프로그래밍에도 사용되고 있다. 자바스크립트가 썬 마이크로시스템즈의 자바와 구문이 유사한 점도 있지만, 이는 사실 두 언어 모두 C 언어의 기본 구문에 바탕을 뒀기 때문이고, 자바와 자바스크립트는 직접적인 관련성이 없다.&lt;/p&gt;
+
+&lt;p&gt;참조:&lt;a href=&quot;https://ko.wikipedia.org/wiki/%EC%9E%90%EB%B0%94%EC%8A%A4%ED%81%AC%EB%A6%BD%ED%8A%B8&quot;&gt;위키백과&lt;/a&gt;&lt;/p&gt;
+
+&lt;hr /&gt;
+
+&lt;h3 id=&quot;section&quot;&gt;자바스크립트 특징&lt;/h3&gt;
+&lt;p&gt;&lt;span class=&quot;ft1 dp-bl&quot;&gt; 글머리는 1~6까지만 지원한다&lt;/span&gt;&lt;/p&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;자바스크립트는 객체 기반의 스크립트 언어입니다.&lt;/li&gt;
+  &lt;li&gt;자바스크립트는 동적이며, 타입을 명시할 필요가 없는 인터프리터 언어입니다.&lt;/li&gt;
+  &lt;li&gt;자바스크립트는 객체 지향형 프로그래밍과 함수형 프로그래밍을 모두 표현할 수 있습니다.&lt;/li&gt;
+&lt;/ul&gt;
+
+</description>
+        <pubDate>Tue, 10 Sep 2019 00:00:00 +0900</pubDate>
+        <link>http://jjeonn.github.io/javascript/2019/09/10/Javascript-step01.html</link>
+        <guid isPermaLink="true">http://jjeonn.github.io/javascript/2019/09/10/Javascript-step01.html</guid>
+        
+        <category>Javascript</category>
+        
+        <category>Publisher</category>
+        
+        <category>Frontend</category>
+        
+        
+        <category>JavaScript</category>
+        
+      </item>
     
       <item>
         <title>Google 검색엔진/애널리틱스 등록하기</title>
@@ -824,47 +863,6 @@ end code block.&lt;/p&gt;
         <pubDate>Fri, 18 Aug 2017 00:00:00 +0900</pubDate>
         <link>http://jjeonn.github.io/portfolio/2017/08/18/Conerstone.html</link>
         <guid isPermaLink="true">http://jjeonn.github.io/portfolio/2017/08/18/Conerstone.html</guid>
-        
-        <category>portfolio</category>
-        
-        
-        <category>portfolio</category>
-        
-      </item>
-    
-      <item>
-        <title>[노블펀드]</title>
-        <description>&lt;section class=&quot;pofo_con&quot;&gt;
-	&lt;article&gt;
-		&lt;a href=&quot;http://noblefund.co.kr&quot; target=&quot;_blank&quot;&gt;
-			&lt;img src=&quot;/assets/portfolio_03.jpg&quot; /&gt;
-		&lt;/a&gt;
-	&lt;/article&gt;
-	&lt;article class=&quot;pofo_left&quot;&gt;
-		&lt;h4&gt;
-			&lt;strong&gt;P2P&lt;/strong&gt;
-			&lt;span&gt;2016.06 ~ 2016.08&lt;/span&gt;
-		&lt;/h4&gt;
-
-		&lt;div&gt;
-			&lt;p class=&quot;pofo_content&quot;&gt;Web/Mobile 로 만들어 졌으며 기존틀에 크게 벗어난거 없이 구축 되었다&lt;/p&gt;
-			&lt;p class=&quot;pofo_content&quot;&gt;큰 이슈없이 만들어졌던 업체&lt;/p&gt;
-		&lt;/div&gt;
-		&lt;ul class=&quot;pofo_ul&quot;&gt;
-			&lt;li&gt;HTML&lt;/li&gt;
-			&lt;li&gt;CSS&lt;/li&gt;
-			&lt;li&gt;JQURY&lt;/li&gt;
-			&lt;li&gt;SCRIPT&lt;/li&gt;
-		&lt;/ul&gt;		
-		&lt;div&gt;
-			&lt;p&gt;기여도&lt;/p&gt; &lt;span&gt;100%&lt;/span&gt;
-		&lt;/div&gt;
-	&lt;/article&gt;
-&lt;/section&gt;
-</description>
-        <pubDate>Tue, 30 Aug 2016 00:00:00 +0900</pubDate>
-        <link>http://jjeonn.github.io/portfolio/2016/08/30/Noble.html</link>
-        <guid isPermaLink="true">http://jjeonn.github.io/portfolio/2016/08/30/Noble.html</guid>
         
         <category>portfolio</category>
         
