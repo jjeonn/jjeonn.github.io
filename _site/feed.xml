@@ -5,8 +5,8 @@
     <description>HI welcome my blog.</description>
     <link>http://jjeonn.github.io/</link>
     <atom:link href="http://jjeonn.github.io/feed.xml" rel="self" type="application/rss+xml"/>
-    <pubDate>Mon, 23 Sep 2019 18:19:00 +0900</pubDate>
-    <lastBuildDate>Mon, 23 Sep 2019 18:19:00 +0900</lastBuildDate>
+    <pubDate>Tue, 24 Sep 2019 17:46:59 +0900</pubDate>
+    <lastBuildDate>Tue, 24 Sep 2019 17:46:59 +0900</lastBuildDate>
     <generator>Jekyll v3.2.1</generator>
     
       <item>
@@ -32,19 +32,27 @@
   &lt;li&gt;자바스크립트는 객체 지향형 프로그래밍과 함수형 프로그래밍을 모두 표현할 수 있습니다.&lt;/li&gt;
 &lt;/ul&gt;
 
-&lt;h3 id=&quot;ecma-scriptes&quot;&gt;ECMA Script(ES)&lt;/h3&gt;
-&lt;p&gt;&lt;span class=&quot;ft1 dp-bl&quot;&gt; 자바스크립트를 공부하다보면 ES5/ES6 를 보게 된다. ECMA Script 5/ECMA Script 6의 약자이며 &lt;strong&gt;ECMA스크립트는 규격,표준&lt;/strong&gt;이다.&lt;/span&gt;&lt;/p&gt;
+&lt;h3 id=&quot;ecma-script-es---&quot;&gt;ECMA Script( ES / 에크마스크립트 )&lt;/h3&gt;
+&lt;p&gt;&lt;span class=&quot;ft1 dp-bl&quot;&gt; 자바스크립트를 공부하다보면 ES5/ES6 를 보게 된다. ECMA Script 5/ECMA Script 6의 약자이며,
+&lt;strong&gt;ECMA스크립트는 JavaScript의 규격,표준&lt;/strong&gt;을 지정하여 호환성을 올린 것 이다.&lt;/span&gt;&lt;/p&gt;
 &lt;blockquote&gt;
-  &lt;p&gt;&lt;strong&gt;ES5(2009)&lt;/strong&gt;&lt;/p&gt;
+  &lt;h4 id=&quot;es52009&quot;&gt;ES5(2009)&lt;/h4&gt;
+  &lt;ul&gt;
+    &lt;li&gt;배열에 forEach, map, filter, reduce, some, every와 같은 메소드 지원&lt;/li&gt;
+    &lt;li&gt;Object에 대한 getter / setter 지원&lt;/li&gt;
+    &lt;li&gt;자바스크립트 strict 모드 지원&lt;/li&gt;
+    &lt;li&gt;JSON 지원 ( 과거에는 XML을 사용하다가 json이 뜨면서 지원 )&lt;/li&gt;
+  &lt;/ul&gt;
 &lt;/blockquote&gt;
 
 &lt;blockquote&gt;
-  &lt;p&gt;*배열에 forEach, map, filter, reduce, some, every와 같은 메소드 지원
-*Object에 대한 getter / setter 지원
-*자바스크립트 strict 모드 지원
-*JSON 지원 ( 과거에는 XML을 사용하다가 json이 뜨면서 지원 )&lt;/p&gt;
+  &lt;h4 id=&quot;es62015&quot;&gt;ES6(2015)&lt;/h4&gt;
+  &lt;ul&gt;
+    &lt;li&gt;전 버전의 부족한부분을 채워나가기 위해 만들어진 ES6. 최신프레임웍들의 기반이 ES6로 개발하기때문에 관심이 높아지고 있다.
+*
+*&lt;/li&gt;
+  &lt;/ul&gt;
 &lt;/blockquote&gt;
-
 </description>
         <pubDate>Tue, 10 Sep 2019 00:00:00 +0900</pubDate>
         <link>http://jjeonn.github.io/javascript/2019/09/10/Javascript-step01.html</link>

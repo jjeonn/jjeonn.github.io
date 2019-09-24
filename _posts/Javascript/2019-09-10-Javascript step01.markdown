@@ -29,12 +29,17 @@ comments : true
 - 자바스크립트는 동적이며, 타입을 명시할 필요가 없는 인터프리터 언어입니다.
 - 자바스크립트는 객체 지향형 프로그래밍과 함수형 프로그래밍을 모두 표현할 수 있습니다.
 
-### ECMA Script(ES)
-<span class="ft1 dp-bl"> 자바스크립트를 공부하다보면 ES5/ES6 를 보게 된다. ECMA Script 5/ECMA Script 6의 약자이며 <strong>ECMA스크립트는 규격,표준</strong>이다.</span>
-> **ES5(2009)**
+### ECMA Script( ES / 에크마스크립트 )
+<span class="ft1 dp-bl"> 자바스크립트를 공부하다보면 ES5/ES6 를 보게 된다. ECMA Script 5/ECMA Script 6의 약자이며,
+<strong>ECMA스크립트는 JavaScript의 규격,표준</strong>을 지정하여 호환성을 올린 것 이다.</span>
+> #### ES5(2009)
+>* 배열에 forEach, map, filter, reduce, some, every와 같은 메소드 지원
+>* Object에 대한 getter / setter 지원
+>* 자바스크립트 strict 모드 지원
+>* JSON 지원 ( 과거에는 XML을 사용하다가 json이 뜨면서 지원 )
 
->*배열에 forEach, map, filter, reduce, some, every와 같은 메소드 지원
->*Object에 대한 getter / setter 지원
->*자바스크립트 strict 모드 지원
->*JSON 지원 ( 과거에는 XML을 사용하다가 json이 뜨면서 지원 )
 
+> #### ES6(2015)
+>* 전 버전의 부족한부분을 채워나가기 위해 만들어진 ES6. 최신프레임웍들의 기반이 ES6로 개발하기때문에 관심이 높아지고 있다.
+>*
+>*
