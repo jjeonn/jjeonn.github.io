@@ -41,3 +41,9 @@ comments : true
 
 > #### ES6(2015)
 >* 전 버전의 부족한부분을 채워나가기 위해 만들어진 ES6. 최신프레임웍들의 기반이 ES6로 개발하기때문에 관심이 높아지고 있다.
+>* 추가 기능은
+>1. Arrows - Arrows(화살표) 함수는 => 문법을 사용하는 축약형 함수
+>2. iterator / generator 추가
+>3. let, const 키워드 추가 - const 키워드가 추가되어 값의 변경을 통제
+>4. module import / export
+>5. Promise - 자바스크립트의 비 동기 callback hell을 해결해 줄 기법
