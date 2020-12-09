@@ -1,0 +1,60 @@
+---
+layout: Portfolio
+title: "Portfolio"
+permalink: /Portfolio/
+---
+<div class="wrapper">
+
+	<ul class="post-list">
+
+	  {% for post in site.categories.portfolio %}
+	  <li>
+		<h2>
+		  <a class="post-link" href="{{ post.url | prepend: site.baseurl }}">{{ post.title }} <span class="title-sub">{{ post.title-sub }}</span></a>
+		</h2>
+		<section class="post-excerpt" itemprop="description">
+		  <p>{{ post.content | strip_html | truncatewords: 20 }}</p>
+		</section>
+		<section class="post-meta">
+		  <div class="post-date">{{ post.date | date: "%B %-d, %Y" }}</div>
+		  <div class="post-categories02">
+		  <a class="post-link" href="{{ post.url | prepend: site.baseurl }}"> View &nbsp;&nbsp;> </a>
+
+		  </div>
+		</section>
+
+		  </li>
+	  {% if forloop.last == false %}
+	  <hr>
+	  {% endif %}
+	  {% endfor %}
+	</ul>
+</div><!-- wrapper -->
+
+
+
+
+
+
+
+
+
+<!--  
+  <h2>2019</h2>
+<ul class="posts-list">
+  {% for post in site.categories.portfolio %}
+    <li>
+      <strong>
+        <a href="{{ post.url | prepend: site.baseurl }}">{{ post.title }}<span class="title-sub">{{ post.title-sub }}</span></a>
+      </strong>
+      <span class="post-date">- {{ post.date | date_to_long_string }}</span>
+    </li>
+  {% endfor %}
+  </ul>
+
+  {% if forloop.last == false %}<hr>{% endif %}-->
+
+<br>
+
+
+

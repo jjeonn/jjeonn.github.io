@@ -1,0 +1,169 @@
+---
+layout: post
+title:  "마크다운(markdown) 정리 (1)"
+date:   2019-07-10 14:43:59
+author: Nayoung
+categories: [GIT]
+tags: markdown git gitblog
+comments : true
+---
+
+
+
+### GithubPage 블로그 사용언어
+<span>깃 블로그의 시작은 스킨셋팅 후 알아야 하는 기본이 마크다운(markdown)이라고 생각한다.</span>
+<span class="dp-bl"> 천천히 기초부터 쌓아보자:D </span>
+
+----------------------------------------------------------------
+
+**마크다운(markdown)**은 일반 텍스트 문서의 양식을 편집하는 문법이다.
+README 파일이나 온라인 문서, 혹은 일반 텍스트 편집기로 문서 양식을 편집할 때 쓰인다. 마크다운을 이용해 작성된 문서는 쉽게 HTML 등 다른 문서형태로 변환이 가능하다.
+
+------------------------------------------------------------------
+
+# 1.헤더(Header)
+<span class="ft1 dp-bl"> 글머리는 1~6까지만 지원한다</span>
+
+```
+ Header1
+ ======
+ Header(small)
+ -------------
+```
+
+Header1
+======
+
+Header(small)
+-------------
+
+```
+ # Header1
+ ## Header2
+ ### Header3
+ #### Header4
+ ##### Header5
+ ###### Header6
+```
+# Header1
+## Header2
+### Header3
+#### Header4
+##### Header5
+###### Header6
+
+----------------------------------------------------------------------
+
+# 2.인용(BlockQuote)
+<span class="ft1 dp-bl">블럭인용문자 ```>``` 를 이용한다.</span>
+```
+>  안녕?
+> > 안녕?
+> > > 안녕?
+```
+
+>  안녕?
+> >  안녕?
+> > > 안녕?
+
+이 안에서는 다른 마크다운 요소를 포함할 수 있다.
+```
+> #### Header4
+> * one
+> * two
+>	```
+>	code
+>	```
+```
+
+> #### Header4
+> * one
+> * two
+>	```
+>	code
+>	```
+
+----------------------------------------------------------------
+
+# 3. 글자 스타일(text decoration)
+
+* 굵게
+```
+    **굵은글씨**
+    __굵은글씨__
+```
+**굵은글씨**
+__굵은글씨__
+
+* 기울게
+```
+    *기울인글씨*
+    _기울인글씨_
+```
+*기울인글씨*
+_기울인글씨_
+
+* 기타
+```
+~~직선~~
+```
+~~직선~~
+
+----------------------------------------------------------------
+
+# 4. 목록(List)
+
+* 숫자 목록
+
+```
+1.하나
+2.둘
+3.셋
+```
+1.하나
+2.둘
+3.셋
+
+* 글머리 목록
+
+```
+    * One
+      * Two
+        * Three
+
+    + One
+      + Two
+        + Three
+
+    - One
+      - Two
+        - Three
+```
+
+* One
+  * Two
+  	* Three
+
++ One
+	+ Two
+	   + Three
+
+- One
+  - Two
+    - Three
+
+----------------------------------------------------------------
+# 5. 코드(Code/pre)
+```
+    This is a normal paragraph:
+        This is a code block.
+    end code block.
+
+    ``` This is a normal paragraph: This is a code block. end code block. ```
+```
+
+This is a normal paragraph:
+    This is a code block.
+end code block.
+
+``` This is a normal paragraph: This is a code block. end code block. ```

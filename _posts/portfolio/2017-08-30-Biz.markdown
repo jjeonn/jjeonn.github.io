@@ -1,0 +1,38 @@
+---
+layout: pages
+title: "[비즈펀딩]"
+title-sub: "bizfund.kr"
+author: Nayoung
+categories: portfolio
+tags: portfolio
+---
+
+
+
+<section class="pofo_con">
+	<article>
+		<a href="https://bizfund.kr" target="_blank">
+			<img src="/assets/portfolio_04.jpg">
+		</a>
+	</article>
+	<article class="pofo_left">
+		<h4>
+			<strong>P2P</strong>
+			<span>2017.07 ~ 2017.08</span>
+		</h4>
+
+		<div>
+			<p class="pofo_content">회사가 추구하는 가치가 뚜렸했던 곳 </p>
+			<p class="pofo_content">심플한 jQuery와 Script가 들어간 동적인 기술을 마음껏 쓸수 있던곳</p>
+		</div>
+		<ul class="pofo_ul">
+			<li>HTML</li>
+			<li>CSS</li>
+			<li>JQURY</li>
+			<li>SCRIPT</li>
+		</ul>		
+		<div>
+			<p>기여도</p> <span>100%</span>
+		</div>
+	</article>
+</section>

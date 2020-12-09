@@ -1,0 +1,40 @@
+---
+layout: pages
+title: "[EXABIT]"
+title-sub: "exabit.co.kr"
+author: Nayoung
+categories: portfolio
+tags: portfolio
+---
+
+
+
+<section class="pofo_con">
+	<article>
+		<a href="https://exabit.co.kr" target="_blank">
+			<img src="/assets/portfolio_07.jpg">
+		</a>
+	</article>
+	<article class="pofo_left">
+		<h4>
+			<strong>COIN 거래소</strong>
+			<span>2019.05 ~ 2019.07</span>
+		</h4>
+
+		<div>
+			<p class="pofo_content">코인을 다루는 사이트기 때문에 숫자의 범위가 넓고 그래프 때문에 고생을 좀 했던 사이트</p>
+			<p class="pofo_content">기존 사이트들에 비해 많은 프리미엄이 붙어있는 사이트인 만큼  OTC라는 새로운 부분 추가와
+많은 기능 추가에 고생했던 곳 이다.
+</p>
+		</div>
+		<ul class="pofo_ul">
+			<li>HTML</li>
+			<li>CSS</li>
+			<li>JQURY</li>
+			<li>SCRIPT</li>
+		</ul>		
+		<div>
+			<p>기여도</p> <span>100%</span>
+		</div>
+	</article>
+</section>
