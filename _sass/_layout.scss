@@ -1,0 +1,553 @@
+// Primary site layout for Centrarium Theme
+
+/*
+*	Variables
+*/
+$b3: 480px;
+$mobile: $b3;
+$b2: 768px;
+$tablet: $b2;
+$b1: 960px;
+$desktop: $b1;
+
+/*custom nayoung*/
+::selection {
+    background: #f4cc1d;
+    color: #fff;}
+.post-content.about_page{
+    padding: 6em 0 !important;}
+
+
+/*
+*	Globals
+*/
+.hljs-code, .hljs-title, .hljs-section, .hljs-selector-class{ color:$black;}
+.hljs, .hljs-tag, .hljs-subst { color:$black;}
+.hljs-deletion, .hljs-meta { color:$black;}
+.ft1 {font-size: 1em;}
+.dp-bl {display:block;}
+blockquote {
+    display: block;
+    margin-block-start: 0.5em;
+    margin-block-end: 0.5em;
+    margin-inline-start: 0px;
+    margin-inline-end: 20px;
+}
+code, kbd, pre, samp { font-family:"Source Sans Pro"; font-size: 1em;}
+
+
+
+
+blockquote{
+	border-left: .25em solid #f4cc1d;
+	padding: 0 1em;
+	color: #6a737d;
+	p{
+		color:#6a737d;
+	}
+}
+html, body {
+	margin: 0;
+	padding: 0;
+	width: 100%;
+}
+
+ol.default {
+  @extend %default-ol;
+}
+
+ul.default {
+	@extend %default-ul;
+}
+
+code {
+	background-color: $white;
+	border:1px solid $yellow;
+	color:$yellow;
+	display: inline-block;
+	border-radius: 3px;
+	padding: 0px 7px;
+	line-height: 1.5;
+}
+
+pre code.hljs {
+	font-size: modular-scale(-1);
+	background: #fff;
+	border: 1px solid #d8d3c0;
+}
+
+.page-divider {
+	$divider-color: $light-gray;
+  display: block;
+  width: 50%;
+  margin-left: auto;
+  margin-right: auto;
+  border-top: 1px solid $divider-color;
+  .one {
+    position: relative;
+    top: -9px;
+    display: block;
+    background: $divider-color;
+    width: 18px;
+    height: 18px;
+    margin-left: auto;
+    margin-right: auto;
+    border-radius: 50%;
+  }
+  .two {
+    position: relative;
+    top: -26px;
+    display: block;
+    background: $white;
+    width: 16px;
+    height: 16px;
+    margin-left: auto;
+    margin-right: auto;
+    border-radius: 50%;
+  }
+}
+
+.site-header-container, .post-header-container {
+	width: 100%;
+	text-align: center;
+	&.has-cover {
+		color: $white;
+		text-shadow: 0 2px 1px rgba(0,0,0,0.67) !important;
+		background-position: 50% 50%;
+		background-size: cover;
+		.title {
+			font-size: modular-scale(6);
+		}
+		.subtitle, .info {
+			font-size: modular-scale(1);
+		}
+	}
+	.scrim {
+		padding: 3em 1em;
+		&.has-cover {
+			/*background-color: rgba(0,0,0,0.2);*/
+			padding: 6em 1em !important;
+			@include media($tablet) {
+				padding: 19em 1em !important;
+			}
+		}
+	}
+}
+
+/*
+*	Header
+*/
+.navigation {
+	box-shadow: 0 2px $highlight-color;
+	padding: 0 1em;
+	margin: 0;
+	/*
+	*	Navigation Menu - http://refills.bourbon.io/unstyled/ (see "Navigation")
+	*/
+  // Mobile view
+  .navigation-menu-button {
+    display: block;
+    float: right;
+    margin: 0;
+    font-size: 1.5em;
+    padding-top: 0.5em;
+    @include media ($tablet) {
+      display: none;
+    }
+  }
+  // Nav menu
+  .navigation-wrapper {
+  	@include outer-container;
+    @include clearfix;
+    position: relative;
+  }
+  .logo {
+    float: left;
+    height: 4em;
+    @include media ($tablet) {
+    	padding-left: $em-base;
+    }
+    img {
+      max-height: 2.5em;
+      margin-top: 0.75em;
+      padding-right: 1em;
+    }
+    span {
+    	font-size: 1.25em;
+    }
+  }
+  nav {
+    float: none;
+    padding: 1.25em 0;
+    @include media ($tablet) {
+      float: right;
+      line-height: 1.5em;
+    }
+  }
+  ul.navigation-menu {
+    clear: both;
+    display: none;
+    margin: 0 auto;
+    overflow: visible;
+    padding: 0;
+    width: 100%;
+    @include media ($tablet) {
+      display: block;
+      margin: 0;
+      padding: 0;
+    }
+    &.show {
+      display: block;
+    }
+  }
+  // Nav items
+  ul li.nav-link {
+    display: block;
+    text-align: right;
+    width: 100%;
+    padding: 0.25em 0;
+    @include media ($tablet) {
+      background: transparent;
+      display: inline;
+      text-decoration: none;
+      width: auto;
+    }
+  }
+  li.nav-link {
+  	a {
+	    display: inline-block;
+	    @include media ($tablet) {
+	      padding-right: 1.5em;
+	    }
+	  }
+	  &:last-child a {
+	  	@include media ($tablet) {
+    		padding-right: 1em;
+    	}
+    }
+  }
+}
+
+/*
+*	Body
+*/
+.page-content {
+	a {
+		  &:active,
+		  &:focus,
+		  &:hover {
+			text-decoration:none;
+			padding-bottom:3px;
+			border-bottom:1px solid $nayoung-color;
+		}
+		img {margin:0; width:auto;}
+	}
+	.wrapper {
+		@include outer-container;
+		padding: 1em;
+	}
+	/*
+	*	index.html
+	*/
+	.post-list {
+		padding-top: 1em !important;
+		@extend %default-ul;
+	}
+	.post-meta {
+		@include outer-container;
+		// padding: 1em 0;
+		color: $medium-gray;
+		.post-date {
+			@include span-columns(6);
+			text-align: left;
+			font-size: 0.9em;
+		}
+		.post-categories {
+			$link-color:$nayoung-color;
+			@include span-columns(6);
+			margin-right: 0;
+			text-align: right;
+			font-size: 0.9em;
+			a {
+			  color: $link-color;
+			  }
+
+		}
+
+//2019-07-16 nayoyng
+		.post-categories02 {
+			float: right;
+			a{
+				    display:block;
+				    width:128px;
+				    height:30px;
+				  /*  background: url(/assets/btn_more.png) no-repeat 100%;*/
+				  background-color:#f4cc1d;
+				  border: 1px solid #f4cc1d;
+				  border-radius:10px;
+				  text-align:center;
+				  line-height:30px;
+				  box-sizing: border-box;
+				  font-family: Nanum Gothic;
+				font-weight: bold;
+				transition: all 0.5s;
+			  &:active,
+			  &:focus,
+			  &:hover {
+				padding-bottom:none;
+				  background-color:#fff;
+			  }
+			}
+		}
+
+
+
+	}
+	.pagination {
+		padding-top: 2em;
+		text-align: center;
+		color: $medium-gray;
+		.page-number {
+			padding: 0 1em;
+		}
+    a.newer-posts {
+      text-decoration: none;
+	color: $yellow-font;
+    }
+	}
+	.site-header-container {
+		color: $white;
+		text-shadow: 0 2px 1px rgba(0,0,0,0.33);
+		background-color: $highlight-color;
+		.site-header{
+			.title {
+				font-size: modular-scale(6);
+			}
+			.subtitle {
+				font-style: italic;
+				font-size: modular-scale(1);
+			}
+		}
+	}
+	img {
+		display: block;
+		margin: auto;
+		width: 90%;
+	}
+	/*
+	*	Posts
+	*/
+
+	.post {
+		ul {
+			margin-bottom: 1em;
+		}
+		.post-header-container {
+			.scrim {
+				padding: 2em 1em 1em 1em;
+			}
+		}
+		.post-meta {
+			padding-bottom: 1em;
+		}
+		.post-content {
+			padding: 1em 0;
+				a{
+				color:#f89200;
+				}
+		}
+		.tags {
+			font-size: 0.9em;
+		}
+		.rss {
+			margin: 1em 0 0 0;
+			@include span-columns(12);
+			@include media ($tablet) {
+				margin: 1em 0;
+				@include span-columns(6);
+			}
+		}
+		.share {
+			font-weight: bold;
+			margin: 0 0 1em 0;
+			@include span-columns(12);
+			@include media ($tablet) {
+				@include span-columns(6);
+				margin: 1em 0;
+				text-align: right;
+			}
+			a {
+				width: 1em;
+				padding: 0 0.25em;
+				text-decoration: none;
+			}
+		}
+		.disqus {
+			@include span-columns(12);
+		}
+		.post-navigation {
+			font-size: 0.9em;
+			display: block;
+			width: auto;
+			.prev-post {
+				display: block;
+				width: 50%;
+				float: left;
+				margin: 1em 0;
+			}
+			.next-post {
+				display: block;
+				width: 50%;
+				float: left;
+				margin: 1em 0;
+				text-align: right;
+			}
+		}
+	}
+	/*
+	*	Pages
+	*/
+	.page {
+		.post-header {
+			padding: 0.5em 1em 1em 1em;
+			text-align: center;
+		}
+		.posts-list {
+			@extend %default-ul;
+			li {
+				padding: modular-scale(-4);
+				padding-left: 0;
+			}
+			.desc {
+				font-size: 0.9em;
+			}
+			.post-date {
+				color: $medium-gray;
+			}
+		}
+		.profile {
+			max-width: 320px;
+			margin: auto;
+			padding-bottom: 0.5em;
+ 		}
+		.posts-list{
+			a{
+			color: $yellow;
+				.title-sub {
+					font-weight:normal;
+					font-size:modular-scale(-1);
+				}
+			}
+		}
+		.post-content02 {
+			a{
+				color:$yellow;
+			}
+		}
+
+	}
+}
+
+/*
+* nayoung custom
+	Portfolio
+*/
+
+	.post-list {
+		p{
+		color:#999999;
+		}
+		a{
+			.title-sub {
+				font-weight:100;
+				font-size:modular-scale(-1);
+        color:#999999;
+			}
+		}
+	}
+
+
+/*
+*	Footer
+*/
+.site-footer {
+	border-top: 1px solid $black;
+	$link-color: $black;
+	padding: 1em 1em 2em 1em;
+	background-color: $white;
+	color: $yellow-font;
+	a {
+	  color: $link-color;
+	  &:active,
+	  &:focus,
+	  &:hover {
+	    color: darken($yellow-font, 50%);
+	  }
+	  &:active,
+	  &:focus {
+	    outline: none;
+	  }
+	}
+	.wrapper {
+		@include outer-container;
+	}
+	.footer-heading {
+		color: $black;
+	}
+	/*
+	*	Site Navigation (left)
+	*/
+	.site-navigation {
+		@include span-columns(12);
+		@include media ($mobile) {
+			@include span-columns(6);
+		}
+		@include media ($tablet) {
+			@include span-columns(4);
+		}
+		font-size: 0.9em;
+		ul {
+			@extend %default-ul;
+		}
+	}
+	/*
+	*	Contact Info (center)
+	*/
+	.site-contact {
+		margin-top: 1em;
+		@include span-columns(12);
+		@include media ($mobile) {
+			@include span-columns(6);
+			margin-top: 0;
+			margin-right: 0;
+		}
+		@include media ($tablet) {
+			@include span-columns(4);
+			margin-top: 0;
+		}
+		font-size: 0.9em;
+		i {
+			width: 1.25em;
+			text-align: center;
+		}
+		ul {
+			@extend %default-ul;
+		}
+	}
+	/*
+	*	Site Description/Signature (right)
+	*/
+	.site-signature {
+		margin-top: 1em;
+		@include span-columns(12);
+		@include media ($tablet) {
+			@include span-columns(4);
+			margin-right: 0;
+			margin-top: 0;
+		}
+		font-size: 0.9em;
+		a {
+			text-decoration: underline;
+		}
+	}
+}
