@@ -1,0 +1,176 @@
+I"�<h2 id="디스커스disqus를-이용해-블로그에-댓글기능-추가하기">디스커스(Disqus)를 이용해 블로그에 댓글기능 추가하기</h2>
+
+<p>현 블로그에 적용된 댓글 서비스는 <a href="https://disqus.com">디스커스(Disqus)</a>에서 제공하는 댓글 기능을 사용하고 있다.</p>
+
+<p>사용한 jekyll blog Skin에 따라 미리 적용 방법을 만들어 놓은Skin도 있지만 모든 사용자가 적용 할 수 있는 방법을 사용하려 한다:)</p>
+
+<hr />
+
+<p><strong>Disqus</strong>는 네트워크 플랫폼을 사용하는 웹 사이트 및 온라인 커뮤니티를위한 전세계 블로그 의견 호스팅 서비스다.</p>
+
+<hr />
+
+<h2 id="1disqus-계정-생성">1.Disqus 계정 생성</h2>
+
+<blockquote>
+  <p><a href="https://disqus.com">disqus.com</a>에서 회원가입하기</p>
+</blockquote>
+
+<blockquote>
+  <p>메인 하단이나 header 오른쪽에 GET STARTED를 눌러 회원가입을 한다.</p>
+</blockquote>
+
+<p><img src="/assets/post_img/comment01.png" alt="comment설명-회원가입" /></p>
+
+<blockquote>
+  <p>두 네모 박스중에 아래 I want to install Disqus on my site(내 사이트에 Disqus를 설치하고 싶다.) 를 눌러 사이트를 만들어 줍니다.</p>
+</blockquote>
+
+<p><img src="/assets/post_img/comment02.png" alt="comment설명-회원가입" /></p>
+
+<blockquote>
+  <p>Create a new site 라는 화면이 뜬다.</p>
+</blockquote>
+
+<blockquote>
+  <p>Website Name을 입력하라고 나오는데 대부분의 사람들은 알아보기 쉽게 자신의 Git도메인과 같은걸 사용하는 편이다!</p>
+</blockquote>
+
+<blockquote>
+  <p>중요하지는 않지만 Category는 사용 목적에 따라 선택해 주고, Language는 Korean이 없어서English로 했다.</p>
+</blockquote>
+
+<p><img src="/assets/post_img/comment02-1.png" alt="comment설명-회원가입" /></p>
+
+<blockquote>
+  <p>Select a plan이라는 페이지가 나오는데 이용료를 내고 이런저런 기능을 사용할거냐고 물어보는 페이지다. Basic한 기능이 필요하기 때문에 아래 Basic을 Free로 이용하는 Subscribe Now를 눌러준다.</p>
+</blockquote>
+
+<p><img src="/assets/post_img/comment05.png" alt="comment설명" /></p>
+
+<blockquote>
+  <p>What platform is your site on?(본인 사이트는 어떤 플랫폼인가?)를 묻는 질문이니 나는 Jekyll을 선택해 주었다.</p>
+</blockquote>
+
+<p><img src="/assets/post_img/comment06.png" alt="comment설명" /></p>
+
+<h2 id="2자신의-git에-page-생성-후-include해준다">2.자신의 Git에 page 생성 후 include해준다.</h2>
+
+<p><img src="/assets/post_img/comment09.png" alt="comment설명" /></p>
+
+<blockquote>
+  <p>Jekyll install instructions 페이지에서 <strong>Universal Embed Code</strong>를 누르면 Disqus를 사용하기 위한 코드가 나온다.</p>
+</blockquote>
+
+<p><img src="/assets/post_img/comment10.png" alt="comment설명" /></p>
+
+<blockquote>
+  <p>안에 있는 코드를 복사해 해당 코드로 나의 깃 _include안에 disqus.html 파일을 생성해 준다.</p>
+</blockquote>
+
+<div class="language-plaintext highlighter-rouge"><div class="highlight"><pre class="highlight"><code>
+
+
+&lt;div id="disqus_thread"&gt;&lt;/div&gt;
+
+&lt;script&gt;
+
+
+
+/**
+
+*  RECOMMENDED CONFIGURATION VARIABLES: EDIT AND UNCOMMENT THE SECTION BELOW TO INSERT DYNAMIC VALUES FROM YOUR PLATFORM OR CMS.
+
+*  LEARN WHY DEFINING THESE VARIABLES IS IMPORTANT: https://disqus.com/admin/universalcode/#configuration-variables*/
+
+/*
+
+var disqus_config = function () {
+
+this.page.url = PAGE_URL;  // Replace PAGE_URL with your page's canonical URL variable
+
+this.page.identifier = PAGE_IDENTIFIER; // Replace PAGE_IDENTIFIER with your page's unique identifier variable
+
+};
+
+*/
+
+(function() { // DON'T EDIT BELOW THIS LINE
+
+var d = document, s = d.createElement('script');
+
+s.src = 'https://nayoung-git-site-1.disqus.com/embed.js';
+
+s.setAttribute('data-timestamp', +new Date());
+
+(d.head || d.body).appendChild(s);
+
+})();
+
+&lt;/script&gt;
+
+&lt;noscript&gt;Please enable JavaScript to view the &lt;a href="https://disqus.com/?ref_noscript"&gt;comments powered by Disqus.&lt;/a&gt;&lt;/noscript&gt;
+
+
+
+</code></pre></div></div>
+
+<blockquote>
+  <p>댓글이 필요한 post layout에 disqus.html을 include해준다.</p>
+</blockquote>
+
+<div class="language-plaintext highlighter-rouge"><div class="highlight"><pre class="highlight"><code>
+
+
+{ % if page.comments %}
+
+&lt;div id="post-disqus" class="container"&gt;
+
+{ % include disqus.html %}
+
+&lt;/div&gt;
+
+{ % endif %}
+
+
+
+</code></pre></div></div>
+
+<blockquote>
+  <p>사용하고 싶은 post에 comments : true 넣어 댓글을 활성화 해 준다.</p>
+</blockquote>
+
+<div class="language-plaintext highlighter-rouge"><div class="highlight"><pre class="highlight"><code>
+---
+
+layout: post
+
+title:  "Gitblog 댓글(Comment) 적용하기"
+
+date:   2019-08-16
+
+author: Nayoung
+
+categories: [GIT]
+
+tags:  git gitblog comment
+
+comments : true
+
+---
+
+</code></pre></div></div>
+
+<h2 id="3다시-사이트로-돌아와-완성해준다">3.다시 사이트로 돌아와 완성해준다!</h2>
+
+<blockquote>
+  <p>Website Name, Website URL을 필수로 Complete Setup을 눌러 준다.</p>
+</blockquote>
+
+<p><img src="/assets/post_img/comment07.png" alt="comment설명" /></p>
+
+<blockquote>
+  <p>Setup Complete! 완성!</p>
+</blockquote>
+
+:ET

@@ -1,0 +1,181 @@
+I"�<h3 id="githubpage-블로그-사용언어">GithubPage 블로그 사용언어</h3>
+<p><span>깃 블로그의 시작은 스킨셋팅 후 알아야 하는 기본이 마크다운(markdown)이라고 생각한다.</span>
+<span class="dp-bl"> 천천히 기초부터 쌓아보자:D </span></p>
+
+<hr />
+
+<p><strong>마크다운(markdown)</strong>은 일반 텍스트 문서의 양식을 편집하는 문법이다.
+README 파일이나 온라인 문서, 혹은 일반 텍스트 편집기로 문서 양식을 편집할 때 쓰인다. 마크다운을 이용해 작성된 문서는 쉽게 HTML 등 다른 문서형태로 변환이 가능하다.</p>
+
+<hr />
+
+<h1 id="1헤더header">1.헤더(Header)</h1>
+<p><span class="ft1 dp-bl"> 글머리는 1~6까지만 지원한다</span></p>
+
+<div class="language-plaintext highlighter-rouge"><div class="highlight"><pre class="highlight"><code> Header1
+ ======
+ Header(small)
+ -------------
+</code></pre></div></div>
+
+<h1 id="header1">Header1</h1>
+
+<h2 id="headersmall">Header(small)</h2>
+
+<div class="language-plaintext highlighter-rouge"><div class="highlight"><pre class="highlight"><code> # Header1
+ ## Header2
+ ### Header3
+ #### Header4
+ ##### Header5
+ ###### Header6
+</code></pre></div></div>
+<h1 id="header1-1">Header1</h1>
+<h2 id="header2">Header2</h2>
+<h3 id="header3">Header3</h3>
+<h4 id="header4">Header4</h4>
+<h5 id="header5">Header5</h5>
+<h6 id="header6">Header6</h6>
+
+<hr />
+
+<h1 id="2인용blockquote">2.인용(BlockQuote)</h1>
+<p><span class="ft1 dp-bl">블럭인용문자 <code class="language-plaintext highlighter-rouge">&gt;</code> 를 이용한다.</span></p>
+<div class="language-plaintext highlighter-rouge"><div class="highlight"><pre class="highlight"><code>&gt;  안녕?
+&gt; &gt; 안녕?
+&gt; &gt; &gt; 안녕?
+</code></pre></div></div>
+
+<blockquote>
+  <p>안녕?</p>
+  <blockquote>
+    <p>안녕?</p>
+    <blockquote>
+      <p>안녕?</p>
+    </blockquote>
+  </blockquote>
+</blockquote>
+
+<p>이 안에서는 다른 마크다운 요소를 포함할 수 있다.</p>
+<div class="language-plaintext highlighter-rouge"><div class="highlight"><pre class="highlight"><code>&gt; #### Header4
+&gt; * one
+&gt; * two
+&gt;	```
+&gt;	code
+&gt;	```
+</code></pre></div></div>
+
+<blockquote>
+  <h4 id="header4-1">Header4</h4>
+  <ul>
+    <li>one</li>
+    <li>two
+      <div class="language-plaintext highlighter-rouge"><div class="highlight"><pre class="highlight"><code>  code
+</code></pre></div>      </div>
+    </li>
+  </ul>
+</blockquote>
+
+<hr />
+
+<h1 id="3-글자-스타일text-decoration">3. 글자 스타일(text decoration)</h1>
+
+<ul>
+  <li>굵게
+    <div class="language-plaintext highlighter-rouge"><div class="highlight"><pre class="highlight"><code>  **굵은글씨**
+  __굵은글씨__
+</code></pre></div>    </div>
+    <p><strong>굵은글씨</strong>
+<strong>굵은글씨</strong></p>
+  </li>
+  <li>기울게
+    <div class="language-plaintext highlighter-rouge"><div class="highlight"><pre class="highlight"><code>  *기울인글씨*
+  _기울인글씨_
+</code></pre></div>    </div>
+    <p><em>기울인글씨</em>
+<em>기울인글씨</em></p>
+  </li>
+  <li>기타
+    <div class="language-plaintext highlighter-rouge"><div class="highlight"><pre class="highlight"><code>~~직선~~
+</code></pre></div>    </div>
+    <p><del>직선</del></p>
+  </li>
+</ul>
+
+<hr />
+
+<h1 id="4-목록list">4. 목록(List)</h1>
+
+<ul>
+  <li>숫자 목록</li>
+</ul>
+
+<div class="language-plaintext highlighter-rouge"><div class="highlight"><pre class="highlight"><code>1.하나
+2.둘
+3.셋
+</code></pre></div></div>
+<p>1.하나
+2.둘
+3.셋</p>
+
+<ul>
+  <li>글머리 목록</li>
+</ul>
+
+<div class="language-plaintext highlighter-rouge"><div class="highlight"><pre class="highlight"><code>    * One
+      * Two
+        * Three
+
+    + One
+      + Two
+        + Three
+
+    - One
+      - Two
+        - Three
+</code></pre></div></div>
+
+<ul>
+  <li>One
+    <ul>
+      <li>Two
+        <ul>
+          <li>Three</li>
+        </ul>
+      </li>
+    </ul>
+  </li>
+  <li>One
+    <ul>
+      <li>Two
+        <ul>
+          <li>Three</li>
+        </ul>
+      </li>
+    </ul>
+  </li>
+  <li>One
+    <ul>
+      <li>Two
+        <ul>
+          <li>Three</li>
+        </ul>
+      </li>
+    </ul>
+  </li>
+</ul>
+
+<hr />
+<h1 id="5-코드codepre">5. 코드(Code/pre)</h1>
+<div class="language-plaintext highlighter-rouge"><div class="highlight"><pre class="highlight"><code>    This is a normal paragraph:
+        This is a code block.
+    end code block.
+
+    ``` This is a normal paragraph: This is a code block. end code block. ```
+</code></pre></div></div>
+
+<p>This is a normal paragraph:
+    This is a code block.
+end code block.</p>
+
+<p><code class="language-plaintext highlighter-rouge">This is a normal paragraph: This is a code block. end code block.</code></p>
+:ET

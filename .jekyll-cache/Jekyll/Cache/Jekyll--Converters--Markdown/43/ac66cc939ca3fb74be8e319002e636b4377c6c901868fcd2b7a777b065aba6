@@ -1,0 +1,28 @@
+I"�<section class="pofo_con">
+	<article>
+		<a href="http://noblefund.co.kr" target="_blank">
+			<img src="/assets/portfolio_03.jpg" />
+		</a>
+	</article>
+	<article class="pofo_left">
+		<h4>
+			<strong>P2P</strong>
+			<span>2016.06 ~ 2016.08</span>
+		</h4>
+
+		<div>
+			<p class="pofo_content">Web/Mobile 로 만들어 졌으며 기존틀에 크게 벗어난거 없이 구축 되었다</p>
+			<p class="pofo_content">큰 이슈없이 만들어졌던 업체</p>
+		</div>
+		<ul class="pofo_ul">
+			<li>HTML</li>
+			<li>CSS</li>
+			<li>JQURY</li>
+			<li>SCRIPT</li>
+		</ul>		
+		<div>
+			<p>기여도</p> <span>100%</span>
+		</div>
+	</article>
+</section>
+:ET
