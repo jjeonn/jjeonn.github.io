@@ -1,0 +1,37 @@
+I"9<section class="pofo_con">
+	<article>
+		<a href="https://www.hellodata.com/" target="_blank">
+			<img src="/assets/portfolio_10.png" />
+		</a>
+	</article>
+	<article class="pofo_left">
+		<h4>
+			<strong>인공지는 데이터 플랫폼</strong>
+			<span>2019-2021</span>
+		</h4>
+
+		<div>
+			<p class="pofo_content">긴시간 함께해온 인공지능 데이터 플랫폼</p>
+			<p class="pofo_content">처음해보는 react와 친해지려 노력을 많이했고</p>
+			<p class="pofo_content">react native로 app을 개발할수있던 즐겁고 새로운 경험</p>
+		</div>
+		<ul class="pofo_ul">
+			<li>HTML</li>
+			<li>CSS</li>
+			<li>REACT</li>
+			<li>R.NATIVE</li>
+		</ul>		
+		<div>
+			<p>기여도</p> <span>50%</span>
+		</div>
+	</article>
+</section>
+<section class="pofo_con">
+	<div class="pofo_img">
+		<p class="pofo_content"> 새롭게 접했던 React와 React native로 기본 구축부터 퍼블리싱을 해온 프로젝트 </p>
+		<p class="pofo_content">  </p>
+		<img src="/assets/portfolio_10_01.jpg" />
+		<img src="/assets/portfolio_10_02.jpg" />
+	</div>
+</section>
+:ET

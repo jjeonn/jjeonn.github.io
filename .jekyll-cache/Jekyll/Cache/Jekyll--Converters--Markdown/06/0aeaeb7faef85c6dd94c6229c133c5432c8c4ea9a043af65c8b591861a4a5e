@@ -1,18 +1,7 @@
----
-layout: pages
-title: "[HELLO DATA]"
-title-sub: "hellodata.com"
-author: Nayoung
-categories: portfolio
-tags: portfolio
----
-
-
-
-<section class="pofo_con">
+I"�<section class="pofo_con">
 	<article>
 		<a href="https://www.hellodata.com/" target="_blank">
-			<img src="/assets/portfolio_10.png">
+			<img src="/assets/portfolio_10.png" />
 		</a>
 	</article>
 	<article class="pofo_left">
@@ -39,15 +28,16 @@ tags: portfolio
 </section>
 <section class="pofo_con">
 	<div class="pofo_img">
-		<img src="/assets/portfolio_10_01.jpg">
-		<p style="margin:20px;" class="pofo_content" style="textalign:center;"> 새롭게 접했던 React와 React native로 기본 구축부터 퍼블리싱을 해온 프로젝트 </p>
+		<img src="/assets/portfolio_10_01.jpg" />
+		<p style="textalign:center;" class="pofo_content"> 새롭게 접했던 React와 React native로 기본 구축부터 퍼블리싱을 해온 프로젝트 </p>
 		<p class="pofo_content"> 헬로 데이터는 관리자가 템플릿을 만들어 데이터 수집,가공 프로젝트를 생성,관리,검수 하는 데이터 가공플랫폼으로 </p>
 		<p class="pofo_content"> List형식의 페이지와 다양한 popup을 component로 만들어 이용</p>
-		<img src="/assets/portfolio_10_02.jpg">
+		<img src="/assets/portfolio_10_02.jpg" />
 	</div>
 </section>
 <style>
-	.pofo_content { text-align:center;}
-	p.pofo_content:nth-of-type(1) { padding-top:30px;}
+	.pofo_content { text-align:center; padding-top:30px;}
 
 </style>
+
+:ET

@@ -1,7 +1,7 @@
-I"�<section class="pofo_con">
+I"�<section class="pofo_con">
 	<article>
 		<a href="https://www.hellodata.com/" target="_blank">
-			<img src="/assets/portfolio_09.jpg" />
+			<img src="/assets/portfolio_10.png" />
 		</a>
 	</article>
 	<article class="pofo_left">
@@ -13,7 +13,7 @@
 		<div>
 			<p class="pofo_content">긴시간 함께해온 인공지능 데이터 플랫폼</p>
 			<p class="pofo_content">처음해보는 react와 친해지려 노력을 많이했고</p>
-			<p class="pofo_content">react native로 app을 개발할수있던 즐거운 경험들</p>
+			<p class="pofo_content">react native로 app을 개발할수있던 즐겁고 새로운 경험</p>
 		</div>
 		<ul class="pofo_ul">
 			<li>HTML</li>
@@ -25,5 +25,11 @@
 			<p>기여도</p> <span>50%</span>
 		</div>
 	</article>
+</section>
+<section class="pofo_con">
+	<div class="pofo_img">
+	<img src="/assets/portfolio_10_01.jpg" />
+	<img src="/assets/portfolio_10_02.jpg" />
+	</div>
 </section>
 :ET

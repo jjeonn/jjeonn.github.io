@@ -1,18 +1,7 @@
----
-layout: pages
-title: "[코너스톤]"
-title-sub: ""
-author: Nayoung
-categories: portfolio
-tags: portfolio
----
-
-
-
-<section class="pofo_con">
+I"<section class="pofo_con">
 	<article>
 		<a href="http://realty.intowinsoft.com" target="_blank">
-			<img src="/assets/portfolio_08.jpg">
+			<img src="/assets/portfolio_08.jpg" />
 		</a>
 	</article>
 	<article class="pofo_left">
@@ -40,14 +29,16 @@ tags: portfolio
 
 <section class="pofo_con">
 	<div class="pofo_img">
-	<img src="/assets/portfolio_08_01.png">
-	<img src="/assets/portfolio_08_02.jpg">
-	<img src="/assets/portfolio_08_03.jpg">
-	<img src="/assets/portfolio_08_04.jpg">
-	<img src="/assets/portfolio_08_05.jpg">
+	<img src="/assets/portfolio_08_01.png" />
+	<img src="/assets/portfolio_08_02.jpg" />
+	<img src="/assets/portfolio_08_03.jpg" />
+	<img src="/assets/portfolio_08_04.jpg" />
+	<img src="/assets/portfolio_08_05.jpg" />
 	</div>
 </section>
 <style>
-	.click { display: none}
+	.click {border:'red'}
 
 </style>
+
+:ET

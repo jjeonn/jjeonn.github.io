@@ -1,4 +1,4 @@
-I"ò<section class="pofo_con">
+I"<section class="pofo_con">
 	<article>
 		<a href="http://realty.intowinsoft.com" target="_blank">
 			<img src="/assets/portfolio_08.jpg" />
@@ -36,4 +36,9 @@
 	<img src="/assets/portfolio_08_05.jpg" />
 	</div>
 </section>
+<style>
+	.click { color : red }
+
+</style>
+
 :ET
